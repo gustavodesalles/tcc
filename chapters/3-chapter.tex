@@ -1,0 +1,70 @@
+% ----------------------------------------------------------
+\chapter{Trabalhos relacionados}
+% ----------------------------------------------------------
+
+A análise de dados abertos governamentais é um tema cada vez mais pertinente na pesquisa acadêmica, especialmente considerando a disponibilidade de algoritmos de aprendizado de máquina e a capacidade de processar grandes quantidades de dados. Nesta seção, são apresentados trabalhos que envolvem a análise de dados de licitações e contratos administrativos e buscam facilitar o combate à corrupção nos processos licitatórios.
+
+A busca bibliográfica foi feita pela plataforma Google Scholar utilizando as palavras-chave "ETL", "extração transformação e carga", "licitações", "portal de transparência" e "dados abertos". Também foram obtidos trabalhos a partir dos arquivos do Simpósio Brasileiro de Bancos de Dados de 2024 (SBBD).
+
+\cite{schmitz2024sbbd} propõem uma metodologia de aprendizado de máquina que utiliza modelos de mistura gaussiana (GMM) para identificar padrões de lances suspeitos de fraude em processos licitatórios, considerando que a escassez de casos confirmados de fraude torna o uso de métodos de aprendizado supervisionado inviável. O modelo avalia a similaridade entre casos de licitações possivelmente fraudulentas e casos conhecidos de fraude em diversos subespaços, criando um \textit{ranking} eficaz de indicadores de risco.
+
+\cite{schneider2024sbbd} utilizam um conjunto de dados referentes a licitações investigadas pela Operação Lava Jato para avaliar as capacidades de diferentes modelos de aprendizado de máquina em detectar casos de conluio. O trabalho propõe uma metodologia com extração de dados para enriquecimento do conjunto original e técnicas como validação cruzada e otimização de hiperparâmetros para treinar os modelos, alcançando resultados mais precisos.
+
+\cite{santos2021ferramenta} apresentam uma ferramenta para visualizar dados obtidos do Portal de Transparência da Câmara Municipal de Florianópolis; o trabalho foca especificamente nos balancetes de vereadores. Os dados dos documentos em PDF são extraídos e coletados em arquivos CSV, que são lidos por uma aplicação escrita na linguagem PHP e adicionados a um banco de dados. Uma interface gráfica permite pesquisar o nome de um vereador e um ano, gerando gráficos dos gastos mensais durante este ano e comparando com gastos de outros anos.
+
+\cite{jesus2021modelo} apresenta um modelo preditivo que utiliza técnicas de mineração de dados e aprendizado de máquina para indicar riscos de irregularidades nas fases de divulgação do edital e apresentação de propostas do processo licitatório. O modelo analisa licitações do Estado de Goiás realizadas entre 2014 e 2019 e calcula o risco utilizando algoritmos de treinamento supervisionado com classificadores. Por fim, constrói-se um \textit{ranking} de licitações potencialmente irregulares.
+
+\cite{mello2024sbbd_estendido} propõem uma modelagem conceitual abrangente de dados para o domínio de licitações, também incluindo dados de fraudes associadas a licitações, denúncias e pessoas envolvidas no processo licitatório, com o objetivo de tornar o projeto de um banco de dados mais robusto e fornecer apoio a sistemas de detecção de fraude. A modelagem inclui uma proposta de persistência poliglota, ou seja, o uso de diversos modelos de banco de dados, como relacional, orientado a grafos e orientado a documentos. 
+
+% <ADICIONAR TABELA COMPARATIVA>
+\begin{table}[h]
+\caption{Comparação de trabalhos relacionados (parte 1)}
+\label{tab:trabalhos-relacionados-1}
+\center
+\begin{tabular}{| l | p{7cm} |}
+\hline
+\textbf{Trabalho} & \textbf{Metodologia} \\ \hline
+\cite{schmitz2024sbbd} & Aprendizado de máquina com modelos de mistura gaussiana \\ \hline
+\cite{schneider2024sbbd} & ETL com validação cruzada e otimização de hiperparâmetros \\ \hline
+\cite{santos2021ferramenta} & Extração de arquivos CSV e interface gráfica \\ \hline
+\cite{jesus2021modelo} & Mineração de dados e treinamento supervisionado \\ \hline
+\cite{mello2024sbbd_estendido} & Modelagem conceitual com persistência poliglota \\ \hline
+% \cite{Anvisa2022} & - & - & Sim \\ \hline
+% Trabalho proposto & Sim & Não & Sim \\ \hline
+\end{tabular}
+\fonte{Elaborada pelo autor.}
+\end{table}
+
+\begin{table}[h]
+\caption{Comparação de trabalhos relacionados (parte 2)}
+\label{tab:trabalhos-relacionados-2}
+\center
+\begin{tabular}{| l | c |}
+\hline
+\textbf{Trabalho} & \textbf{Conjunto de dados} \\ \hline
+\cite{schmitz2024sbbd} & Licitações referentes à Operação Patrola \\ \hline
+\cite{schneider2024sbbd} & Licitações referentes à Operação Lava Jato \\ \hline
+\cite{santos2021ferramenta} & Balancetes de vereadores de Florianópolis \\ \hline
+\cite{jesus2021modelo} & Licitações do Estado de Goiás entre 2014 e 2019 \\ \hline
+\cite{mello2024sbbd_estendido} & - \\ \hline
+\end{tabular}
+\fonte{Elaborada pelo autor.}
+\end{table}
+
+% ----------------------------------------------------------
+\chapter{Desenvolvimento}
+\label{cap:Desenvolvimento}
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+\section{Análise exploratórida dos dados da fonte}
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+\section{Processo de ETL implementado}
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+\chapter{Resultados}
+\label{cap:Resultados}
+% ----------------------------------------------------------

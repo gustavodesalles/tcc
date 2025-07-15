@@ -1,0 +1,66 @@
+% ----------------------------------------------------------
+\chapter{Introdução}
+% ----------------------------------------------------------
+
+% As orientações aqui apresentadas são baseadas em um conjunto de normas elaboradas pela \gls{ABNT}. Além das normas técnicas, a Biblioteca também elaborou uma série de tutoriais, guias, \textit{templates} os quais estão disponíveis em seu site, no endereço \url{http://portal.bu.ufsc.br/normalizacao/}.
+
+% Paralelamente ao uso deste \textit{template} recomenda-se que seja utilizado o \textbf{Tutorial de Trabalhos Acadêmicos} (disponível neste link \url{https://repositorio.ufsc.br/handle/123456789/180829}) e/ou que o discente \textbf{participe das capacitações oferecidas da Biblioteca Universitária da UFSC}.
+
+% Este \textit{template} está configurado apenas para a impressão utilizando o anverso das folhas, caso você queira imprimir usando a frente e o verso, acrescente a opção \textit{openright} e mude de \textit{oneside} para \textit{twoside} nas configurações da classe \textit{abntex2} no início do arquivo principal \textit{main.tex} \cite{abntex2classe}.
+
+% Os trabalhos de conclusão de curso (TCC) de graduação e de especialização não são entregues em formato impresso na Biblioteca Universitária. Porém, sua versão PDF pode ser disponibilizada no Repositório Institucional, consulte seu curso sobre os procedimentos adotados para a entrega. 
+
+% \nocite{NBR6023:2002}
+% \nocite{NBR6027:2012}
+% \nocite{NBR6028:2003}
+% \nocite{NBR10520:2002}
+
+O uso de plataformas de orquestração de \textit{workflows} é imprescindível para gerenciar aplicações com uso intenso de dados, como \textit{data warehouses}. \cite{hollingsworth1995workflow} define \textit{workflow} como a automação informatizada total ou parcial de um processo de negócio e afirma que um sistema de gerenciamento de \textit{workflows} deve fornecer suporte a três tipos de funções: (i) as funções \textit{build-time}, referentes à definição e modelagem do processo de \textit{workflow}; (ii) as funções \textit{run-time control}, que envolvem o sequenciamento da execução das atividades e (iii) as interações de \textit{run-time} entre os usuários e as aplicações de TI que processam os passos das atividades.
+
+\textit{Workflows} são frequentemente utilizados para implementar processos de extração, transformação e carga (em inglês \textit{extraction-transformation-loading} - ETL) de dados. \cite{vassiliadis2002conceptual} fornecem uma descrição generalizada de processos ETL. Dados são obtidos de fontes como bancos de dados relacionais ou arquivos por rotinas de extração. Depois, os dados são propagados a uma ou mais \textit{data staging areas}, onde são transformados a um formato homogêneo. Por fim, os dados formatados são inseridos em um banco de dados, muitas vezes no modelo multidimensional de um \textit{data warehouse}.
+
+O Apache Airflow é uma plataforma de orquestração de \textit{workflows} de código aberto utilizada para implementar e manter \textit{pipelines} de dados. No Airflow, \textit{workflows} são definidos por grafos acíclicos direcionados, ou DAGs (do inglês \textit{directed acyclic graph}). DAGs são \textit{scripts} escritos na linguagem Python, utilizando construções básicas como operadores. DAGs definem as tarefas a serem executadas, as quais podem ser especificadas por operadores, e relações que indicam a ordem de execução e as dependências entre tarefas. Estes componentes formarão a \textit{pipeline} do Airflow \cite{finnigan2021building}.
+
+Este trabalho busca descrever, de forma detalhada, o desenvolvimento de um fluxo de ETL desde a obtenção de dados até o processamento e carga dos dados. Primeiramente, duas fontes serão acessadas: (i) um \textit{web scraper} que acessa o Portal da Transparência da Controladoria-Geral da União e extrai dados referentes a contratos de compras feitas por órgãos do município de Florianópolis e (ii) um \textit{script} que faz uma requisição do API de dados públicos do Portal de Transparência da Prefeitura Municipal de Florianópolis buscando registros de contratos e licitações, incluindo número, nome e CPF/CNPJ do fornecedor, período de vigência e valor monetário. Depois, a orquestração dos fluxos de trabalho será implementada por meio da execução de processos de acordo com especificações desses fluxos na forma de DAGs no Airflow. Esses processos visam limpar e padronizar os dados em
+um formato adequado para o armazenamento. A análise exploratória e a visualização dos dados serão feitas com a geração de tabelas, gráficos e eventualmente grafos, que permitirão analisar a estrutura e a distribuição dos dados, tais como os custos dos contratos para identificar irregularidades. O desempenho do fluxo de ETL será avaliado com base nos tempos de execução das tarefas dos DAGs, na quantidade de dados tratados e na quantidade de erros encontrados durante e após a transformação.
+
+% % ----------------------------------------------------------
+% \section{Recomendações de uso}
+% % ----------------------------------------------------------
+
+% Este \emph{template} foi elaborado para se compilado em \LaTeX utilizando \abnTeX.  Todas as configurações de diferenciação gráfica nas divisões de seção e subseção seguem a  norma NBR 6027/2012 automaticamente. 
+
+% Uma nota de rodapé, já tem seu estilo automático com o comando \texttt{$\backslash$footnote}\footnote{As notas de rodapé possuem fonte tamanho 10. O alinhamento das linhas da nota de rodapé deve ser abaixo da primeira letra da primeira palavra da nota de modo dar destaque ao expoente.}.
+
+
+% ----------------------------------------------------------
+\section{Objetivos}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+\subsection{Objetivo Geral}
+% ----------------------------------------------------------
+
+O objetivo geral deste trabalho é orquestrar um fluxo de extração, transformação e carregamento de dados relacionados a compras feitas por órgãos públicos do município de Florianópolis, com o intuito de suprir dados para  analisar os gastos com as compras no projeto Céos. Os resultados serão avaliados através de uma análise exploratória de dados resultantes em tabelas e gráficos, que permitirão visualizar suas distribuições. Também serão medidos os tempos de execução das tarefas e as quantidades de erros encontrados nos dados, tratados ou não dentro nos processos de ETL implementados e avaliados.
+
+% ----------------------------------------------------------
+\subsection{Objetivos Específicos}
+% ----------------------------------------------------------
+
+Os objetivos específicos são:
+\begin{enumerate}
+    \item Estudar conceitos de orquestração de fluxos de ETL.
+    \item Desenvolver códigos para obtenção de dados utilizando métodos de web scraping e requisições em uma API pública.
+    \item Construir DAGs (directed acyclic graphs) para implementar o fluxo de ETL, que padronizará os dados em um formato adequado.
+    \item Orquestrar processos de ETL usando as DAGs construídas, coletando métricas para avaliar sua capacidade, desempenho e custos computacionais.
+    \item Utilizar ferramentas de análise e visualização de dados para gerar tabelas e gráficos sobre as distribuições dos dados carregados e a análise dos custos computacionais dos processos de ETL.
+\end{enumerate}
+
+% ----------------------------------------------------------
+\section{Metodologia}
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+\section{Organização do documento}
+% ----------------------------------------------------------
+
+O trabalho está organizado da seguinte maneira: o capítulo 2 apresenta os fundamentos de conceitos e tecnologias utilizados para desenvolver o trabalho. No capítulo 3, faz-se uma comparação de trabalhos que abordam temas semelhantes a este. O capítulo 4 descreve os processos de análise exploratória dos dados e implementação do fluxo ETL. No capítulo 5, são discutidos os resultados obtidos a partir da análise. Finalmente, o capítulo 6 apresenta conclusões e temas para trabalhos futuros.
