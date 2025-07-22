@@ -462,6 +462,14 @@ Os objetivos específicos são:
 \section{Metodologia}
 % ----------------------------------------------------------
 
+A metodologia adotada neste trabalho é estruturada em três etapas principais, contemplando desde o estudo preliminar até a implementação e análise dos dados extraídos.
+
+A primeira etapa consiste em um levantamento teórico sobre os conceitos, ferramentas e práticas envolvidas na orquestração de \textit{pipelines} de ETL (\textit{extraction-transformation-loading}) utilizando o Apache Airflow. Foram reunidos artigos científicos, publicações técnicas e documentação especializada sobre a estrutura e implementação de DAGs (\textit{directed acyclic graphs}) no Airflow, bem como sobre métodos de \textit{web scraping}, a fim de possibilitar a extração de dados não estruturados diretamente de páginas da Web.
+
+Na segunda etapa, foi realizada a implementação dos \textit{scripts} responsáveis pela extração de dados por meio de \textit{web scraping} e requisições a APIs REST. Os dados obtidos a partir dos \textit{endpoints} públicos disponibilizados no Portal de Transparência da Prefeitura estavam incompletos, o que tornou necessário consultar os \textit{endpoints} internos do sistema para extrair os dados faltantes. Após este processo, realizou-se uma análise exploratória dos dados, consistindo na geração de gráficos para visualização de possíveis \textit{outliers} entre os registros e na construção de um dicionário de dados e, subsequentemente, a modelagem de um esquema para bancos de dados relacionais.
+
+A terceira e última etapa envolve a orquestração completa do fluxo ETL no ambiente do Airflow, seguida da análise dos dados carregados. Foram realizados testes de execução e ajustes nos fluxos com base na avaliação de métricas, como tempo de execução e ocorrência de erros, e a partir dos dados transformados, foram geradas tabelas e gráficos mais detalhados, permitindo a análise mais complexa.
+
 % ----------------------------------------------------------
 \section{Organização do documento}
 % ----------------------------------------------------------

@@ -12,37 +12,39 @@
 \contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{14}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{14}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Metodologia}{14}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Organização do documento}{14}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Organização do documento}{15}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentos}}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Extração, transformação e carga (ETL) de dados}{15}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Apache Airflow}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Transparência e dados abertos}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Licitações e contratos administrativos}{17}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Dados abertos de compras públicas da PMF}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}API de compras públicas da PMF}{19}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Descrição dos dados retornados}{19}{subsection.2.4.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentos}}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Extração, transformação e carga (ETL) de dados}{16}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Apache Airflow}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Transparência e dados abertos}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Licitações e contratos administrativos}{18}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Dados abertos de compras públicas da PMF}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}API de compras públicas da PMF}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Descrição dos dados retornados}{20}{subsection.2.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Trabalhos relacionados}}{25}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Trabalhos relacionados}}{26}{chapter.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Desenvolvimento}}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Cliente para a API de compras Públicas da PMF}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Análise exploratória dos dados coletados em JSON}{28}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Esquema relacional para os dados coletados}{29}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Processo de ETL}{29}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Desenvolvimento}}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Cliente para a API de compras Públicas da PMF}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Análise exploratória dos dados coletados em JSON}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Esquema relacional para os dados coletados}{30}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Processo de ETL}{30}{section.4.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{31}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{32}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{32}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{33}{chapter.6}%
 \vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{REFERÊNCIAS}{34}{section*.26}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descrição}}{33}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descrição}}{36}{appendix.A}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descrição}}{34}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Descrição}}{37}{appendix.anexochapback.1}%

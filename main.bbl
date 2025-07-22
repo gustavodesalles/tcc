@@ -1,0 +1,587 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{tcu2023}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3d8f173bc147993c504f8dddd072af26}{%
+           family={Contas\bibnamedelimb da\bibnamedelima União},
+           familyi={C\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim U\bibinitperiod},
+           given={Tribunal},
+           giveni={T\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cdb0f1ef1bb093971e05addf218383c}{%
+           family={TCU},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brasília}%
+      }
+      \list{organization}{1}{%
+        {Tribunal de Contas da União}%
+      }
+      \list{publisher}{1}{%
+        {Secretaria-Geral da Presidência}%
+      }
+      \strng{namehash}{3cdb0f1ef1bb093971e05addf218383c}
+      \strng{fullhash}{3d8f173bc147993c504f8dddd072af26}
+      \strng{bibnamehash}{3cdb0f1ef1bb093971e05addf218383c}
+      \strng{authorbibnamehash}{3d8f173bc147993c504f8dddd072af26}
+      \strng{authornamehash}{3d8f173bc147993c504f8dddd072af26}
+      \strng{authorfullhash}{3d8f173bc147993c504f8dddd072af26}
+      \strng{shortauthorbibnamehash}{3cdb0f1ef1bb093971e05addf218383c}
+      \strng{shortauthornamehash}{3cdb0f1ef1bb093971e05addf218383c}
+      \strng{shortauthorfullhash}{3cdb0f1ef1bb093971e05addf218383c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{title}{Licitações \& Contratos: Orientações e Jurisprudência do TCU / Tribunal de Contas da União}
+      \field{year}{2023}
+    \endentry
+    \entry{finnigan2021building}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7da202b2c3fe48f404185772efef2efb}{%
+           family={Finnigan},
+           familyi={F\bibinitperiod},
+           given={Leanne},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff76d2fe600a787914d4e395887e58db}{%
+           family={Toner},
+           familyi={T\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10448b54e555357de2a22fdf9f51f42d}
+      \strng{fullhash}{10448b54e555357de2a22fdf9f51f42d}
+      \strng{bibnamehash}{10448b54e555357de2a22fdf9f51f42d}
+      \strng{authorbibnamehash}{10448b54e555357de2a22fdf9f51f42d}
+      \strng{authornamehash}{10448b54e555357de2a22fdf9f51f42d}
+      \strng{authorfullhash}{10448b54e555357de2a22fdf9f51f42d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Temple University Libraries}
+      \field{title}{Building and maintaining metadata aggregation workflows using apache airflow}
+      \field{year}{2021}
+    \endentry
+    \entry{hollingsworth1995workflow}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6eedae816bce2cf03b71c8e48f429968}{%
+           family={Hollingsworth},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6eedae816bce2cf03b71c8e48f429968}
+      \strng{fullhash}{6eedae816bce2cf03b71c8e48f429968}
+      \strng{bibnamehash}{6eedae816bce2cf03b71c8e48f429968}
+      \strng{authorbibnamehash}{6eedae816bce2cf03b71c8e48f429968}
+      \strng{authornamehash}{6eedae816bce2cf03b71c8e48f429968}
+      \strng{authorfullhash}{6eedae816bce2cf03b71c8e48f429968}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Workflow management coalition: The workflow reference model}
+      \field{year}{1995}
+    \endentry
+    \entry{jesus2021modelo}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=435e0c8709fa72f74cc088c5f06dc38e}{%
+           family={Jesus},
+           familyi={J\bibinitperiod},
+           given={Mauricio\bibnamedelimb Barros\bibnamedelima de},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{435e0c8709fa72f74cc088c5f06dc38e}
+      \strng{fullhash}{435e0c8709fa72f74cc088c5f06dc38e}
+      \strng{bibnamehash}{435e0c8709fa72f74cc088c5f06dc38e}
+      \strng{authorbibnamehash}{435e0c8709fa72f74cc088c5f06dc38e}
+      \strng{authornamehash}{435e0c8709fa72f74cc088c5f06dc38e}
+      \strng{authorfullhash}{435e0c8709fa72f74cc088c5f06dc38e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelo preditivo de risco de irregularidades em compras públicas no Estado de Goiás}
+      \field{year}{2021}
+    \endentry
+    \entry{mello2024sbbd_estendido}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=11ba2ec079c5a1fe764f94332a9a3b02}{%
+           family={Mello},
+           familyi={M\bibinitperiod},
+           given={Ronaldo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91f5486ff9393a2371857d537e8265d3}{%
+           family={Bornia},
+           familyi={B\bibinitperiod},
+           given={Luis\bibnamedelima Gustavo},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af308f13c6db083a5323eadacdeb9a1e}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Hudson},
+           giveni={H\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=5d00097f9b86846c763048f492eeb0fc}{%
+           family={Pierotti},
+           familyi={P\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6534ed27a57f5cd9bc093a25e1970240}{%
+           family={Cardeal},
+           familyi={C\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Florianópolis/SC}%
+      }
+      \list{publisher}{1}{%
+        {SBC}%
+      }
+      \strng{namehash}{743de9a7977ca0aba34b3e86a90e00f1}
+      \strng{fullhash}{c9c534ddd7d833052d8dc8dbeb7c6a70}
+      \strng{bibnamehash}{743de9a7977ca0aba34b3e86a90e00f1}
+      \strng{authorbibnamehash}{743de9a7977ca0aba34b3e86a90e00f1}
+      \strng{authornamehash}{743de9a7977ca0aba34b3e86a90e00f1}
+      \strng{authorfullhash}{c9c534ddd7d833052d8dc8dbeb7c6a70}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Anais Estendidos do XXXIX Simpósio Brasileiro de Bancos de Dados}
+      \field{issn}{0000-0000}
+      \field{title}{Uma Proposta de Modelagem de Dados no Domínio de Fraudes em Licitações Públicas}
+      \field{year}{2024}
+      \field{pages}{220\bibrangedash 226}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.5753/sbbd_estendido.2024.243665
+      \endverb
+      \verb{urlraw}
+      \verb https://sol.sbc.org.br/index.php/sbbd_estendido/article/view/30797
+      \endverb
+      \verb{url}
+      \verb https://sol.sbc.org.br/index.php/sbbd_estendido/article/view/30797
+      \endverb
+    \endentry
+    \entry{nazario2012avaliaccao}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=43b4ccaf843a2198fc4c57f5c42f86ea}{%
+           family={Nazário},
+           familyi={N\bibinitperiod},
+           given={Débora\bibnamedelima Cabral},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45d165b65551a244a88d7d3cea8cae46}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Paulo\bibnamedelimb Fernando\bibnamedelima da},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c97fd7f74541f0f7aafb01e04cd74d9}{%
+           family={Rover},
+           familyi={R\bibinitperiod},
+           given={Aires\bibnamedelima José},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af43557572be22730aaa522217d75fb0}
+      \strng{fullhash}{af43557572be22730aaa522217d75fb0}
+      \strng{bibnamehash}{af43557572be22730aaa522217d75fb0}
+      \strng{authorbibnamehash}{af43557572be22730aaa522217d75fb0}
+      \strng{authornamehash}{af43557572be22730aaa522217d75fb0}
+      \strng{authorfullhash}{af43557572be22730aaa522217d75fb0}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Democracia Digital e Governo Eletrônico}
+      \field{number}{6}
+      \field{title}{Avaliação da qualidade da informação disponibilizada no Portal da Transparência do Governo Federal}
+      \field{year}{2012}
+    \endentry
+    \entry{possamai2020transparencia}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aa6574af8c1988d687f5668cef788aea}{%
+           family={Possamai},
+           familyi={P\bibinitperiod},
+           given={Ana\bibnamedelima Júlia},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d637c840f5a111a6ae282dae6f3c0496}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Vitoria\bibnamedelima Gonzatti},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{e5f3b6a31e9eb53db4e1de504b6fa782}
+      \strng{fullhash}{e5f3b6a31e9eb53db4e1de504b6fa782}
+      \strng{bibnamehash}{e5f3b6a31e9eb53db4e1de504b6fa782}
+      \strng{authorbibnamehash}{e5f3b6a31e9eb53db4e1de504b6fa782}
+      \strng{authornamehash}{e5f3b6a31e9eb53db4e1de504b6fa782}
+      \strng{authorfullhash}{e5f3b6a31e9eb53db4e1de504b6fa782}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Administração Pública e Gestão Social}
+      \field{title}{Transparência e dados abertos governamentais: possibilidades e desafios a partir da lei de acesso à informação}
+      \field{year}{2020}
+    \endentry
+    \entry{de2021data}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0eab3990e38e3616a47ebcd48920fb6f}{%
+           family={Ruiter},
+           familyi={R\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=540007ad744455950ce82fd4b3fdf429}{%
+           family={Harenslak},
+           familyi={H\bibinitperiod},
+           given={Bas},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Simon}%
+        {Schuster}%
+      }
+      \strng{namehash}{17a1752a5c944283e14ab667114b6a68}
+      \strng{fullhash}{17a1752a5c944283e14ab667114b6a68}
+      \strng{bibnamehash}{17a1752a5c944283e14ab667114b6a68}
+      \strng{authorbibnamehash}{17a1752a5c944283e14ab667114b6a68}
+      \strng{authornamehash}{17a1752a5c944283e14ab667114b6a68}
+      \strng{authorfullhash}{17a1752a5c944283e14ab667114b6a68}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Pipelines with Apache Airflow}
+      \field{year}{2021}
+    \endentry
+    \entry{schneider2024sbbd}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=0420e6765918b61fc6627b0225d62fc6}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Everton\bibnamedelima Schneider},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=a997392866b9ff2291f361951db8621e}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Matheus\bibnamedelima Machado},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=a5b1c0ae84571973e464f8913d4bc73a}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Márcio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a58a07185e6924b1dc0fc692b216890}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Jonata\bibnamedelima Tyska},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Florianópolis/SC}%
+      }
+      \list{publisher}{1}{%
+        {SBC}%
+      }
+      \strng{namehash}{3b51e1f75fde02fe0369eed5afd9fb7d}
+      \strng{fullhash}{67cb1debf26cce9cedd29a82f7495bae}
+      \strng{bibnamehash}{3b51e1f75fde02fe0369eed5afd9fb7d}
+      \strng{authorbibnamehash}{3b51e1f75fde02fe0369eed5afd9fb7d}
+      \strng{authornamehash}{3b51e1f75fde02fe0369eed5afd9fb7d}
+      \strng{authorfullhash}{67cb1debf26cce9cedd29a82f7495bae}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Anais do XXXIX Simpósio Brasileiro de Bancos de Dados}
+      \field{issn}{2763-8979}
+      \field{title}{Performance Variability of Machine Learning Models using Limited Data for Collusion Detection: A Case Study of the Brazilian Car Wash Operation}
+      \field{year}{2024}
+      \field{pages}{431\bibrangedash 443}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.5753/sbbd.2024.240845
+      \endverb
+      \verb{urlraw}
+      \verb https://sol.sbc.org.br/index.php/sbbd/article/view/30711
+      \endverb
+      \verb{url}
+      \verb https://sol.sbc.org.br/index.php/sbbd/article/view/30711
+      \endverb
+    \endentry
+    \entry{santos2021ferramenta}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c6329f20108bba03ed0f67e36e36dac0}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Maria\bibnamedelimb Teresa\bibnamedelima Silva},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=53eb9b7ca34b902ae6ef9e64ac432ff4}{%
+           family={Gasparini},
+           familyi={G\bibinitperiod},
+           given={Isabela},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=678d812b308f0613260fd8dcd3e03ff8}{%
+           family={Frigo},
+           familyi={F\bibinitperiod},
+           given={Luciana\bibnamedelima Bolan},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d96cae3e9366f8201de0526bb03b2876}{%
+           family={Dalle\bibnamedelima Mulle},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Laı́s\bibnamedelimb de\bibnamedelima Oliveira},
+           giveni={L\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {SBC}%
+      }
+      \strng{namehash}{c9039221ca87eaf9738379c76446ca3c}
+      \strng{fullhash}{fd720d2345d340c0489f5aa38320ef1e}
+      \strng{bibnamehash}{c9039221ca87eaf9738379c76446ca3c}
+      \strng{authorbibnamehash}{c9039221ca87eaf9738379c76446ca3c}
+      \strng{authornamehash}{c9039221ca87eaf9738379c76446ca3c}
+      \strng{authorfullhash}{fd720d2345d340c0489f5aa38320ef1e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop de Computação Aplicada em Governo Eletrônico (WCGE)}
+      \field{title}{Ferramenta de visualizaçao de dados abertos do portal de transparência da câmara municipal da cidade de florianópolis}
+      \field{year}{2021}
+      \field{pages}{71\bibrangedash 82}
+      \range{pages}{12}
+    \endentry
+    \entry{schmitz2024sbbd}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=1fb480700a3653f789e4e3cf9b0eebae}{%
+           family={Schmitz},
+           familyi={S\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d774fe05fd44667b174b2143b887f038}{%
+           family={Ferrão},
+           familyi={F\bibinitperiod},
+           given={Lívia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a997392866b9ff2291f361951db8621e}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Matheus\bibnamedelima Machado},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=a5b1c0ae84571973e464f8913d4bc73a}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Márcio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57611c626b2d7a39147a1d99b030d8c5}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Jônata\bibnamedelima Tyska},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Florianópolis/SC}%
+      }
+      \list{publisher}{1}{%
+        {SBC}%
+      }
+      \strng{namehash}{8e743a05bb99100d97d11aabcade63f4}
+      \strng{fullhash}{93598e3969ebb451ad5ceab41995928f}
+      \strng{bibnamehash}{8e743a05bb99100d97d11aabcade63f4}
+      \strng{authorbibnamehash}{8e743a05bb99100d97d11aabcade63f4}
+      \strng{authornamehash}{8e743a05bb99100d97d11aabcade63f4}
+      \strng{authorfullhash}{93598e3969ebb451ad5ceab41995928f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Anais do XXXIX Simpósio Brasileiro de Bancos de Dados}
+      \field{issn}{2763-8979}
+      \field{title}{Detecting Fraud in Public Procurement: A GMM-Based Approach to Analyzing Tender Data}
+      \field{year}{2024}
+      \field{pages}{207\bibrangedash 219}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.5753/sbbd.2024.240649
+      \endverb
+      \verb{urlraw}
+      \verb https://sol.sbc.org.br/index.php/sbbd/article/view/30694
+      \endverb
+      \verb{url}
+      \verb https://sol.sbc.org.br/index.php/sbbd/article/view/30694
+      \endverb
+    \endentry
+    \entry{vassiliadis2009extraction}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9e7a0590d59945c560f5f4d194ea78e0}{%
+           family={Vassiliadis},
+           familyi={V\bibinitperiod},
+           given={Panos},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2334fe96ca8118d664a7c04745bea2ef}{%
+           family={Simitsis},
+           familyi={S\bibinitperiod},
+           given={Alkis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{b4c5ea267a6f842e6948221801ee71b7}
+      \strng{fullhash}{b4c5ea267a6f842e6948221801ee71b7}
+      \strng{bibnamehash}{b4c5ea267a6f842e6948221801ee71b7}
+      \strng{authorbibnamehash}{b4c5ea267a6f842e6948221801ee71b7}
+      \strng{authornamehash}{b4c5ea267a6f842e6948221801ee71b7}
+      \strng{authorfullhash}{b4c5ea267a6f842e6948221801ee71b7}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Encyclopedia of database systems}
+      \field{title}{Extraction, Transformation, and Loading.}
+      \field{volume}{10}
+      \field{year}{2009}
+      \field{pages}{14}
+      \range{pages}{1}
+    \endentry
+    \entry{vassiliadis2002conceptual}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9e7a0590d59945c560f5f4d194ea78e0}{%
+           family={Vassiliadis},
+           familyi={V\bibinitperiod},
+           given={Panos},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2334fe96ca8118d664a7c04745bea2ef}{%
+           family={Simitsis},
+           familyi={S\bibinitperiod},
+           given={Alkis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6170c8d37eb3ff31ea97b6721677bcf}{%
+           family={Skiadopoulos},
+           familyi={S\bibinitperiod},
+           given={Spiros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2bf299b44d35ec21df64849d324b6d47}
+      \strng{fullhash}{2bf299b44d35ec21df64849d324b6d47}
+      \strng{bibnamehash}{2bf299b44d35ec21df64849d324b6d47}
+      \strng{authorbibnamehash}{2bf299b44d35ec21df64849d324b6d47}
+      \strng{authornamehash}{2bf299b44d35ec21df64849d324b6d47}
+      \strng{authorfullhash}{2bf299b44d35ec21df64849d324b6d47}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th ACM international workshop on Data Warehousing and OLAP}
+      \field{title}{Conceptual modeling for ETL processes}
+      \field{year}{2002}
+      \field{pages}{14\bibrangedash 21}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
