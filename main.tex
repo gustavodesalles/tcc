@@ -490,11 +490,10 @@ O trabalho está organizado da seguinte maneira: o capítulo 2 apresenta os fund
 % ----------------------------------------------------------
 \chapter{Fundamentos}\label{cap:fundamentos}
 % ----------------------------------------------------------
-Neste capítulo são apresentados conceitos teóricos relacionados ao trabalho. Na seção 2.1, apresenta-se o processo de extração, transformação e carga de dados com as definições de cada etapa do processo. A seção 2.2 apresenta a plataforma de software Apache Airflow, utilizada para orquestrar fluxos de trabalho, além de seus componentes e sua interface gráfica. A seção 2.3 apresenta o conceito de dados abertos e iniciativas de transparência governamental em nível federal e municipal.
-Por fim, na seção 2.4, são definidos licitações e contratos administrativos de acordo com a Lei 14.133/2021.
+Neste capítulo são apresentados conceitos teóricos relacionados ao trabalho. Na seção \ref{sec:etl_dados}, apresenta-se o processo de extração, transformação e carga de dados com as definições de cada etapa do processo. A seção \ref{sec:airflow} apresenta a plataforma de software Apache Airflow, utilizada para orquestrar fluxos de trabalho, além de seus componentes e sua interface gráfica. A seção \ref{sec:transparencia} apresenta o conceito de dados abertos e iniciativas de transparência governamental em nível federal e municipal; na subseção \ref{ssec:licitacoes_contratos}, são definidos licitações e contratos administrativos de acordo com a Lei 14.133/2021. Por fim, a seção \ref{sec:dados_abertos} apresenta a \glsxtrshort{API} de compras públicas da \glsxtrlong{PMF} e define um dicionário de dados a partir dos resultados de consultas feitas.
 
 % ----------------------------------------------------------
-\section{Extração, transformação e carga (\glsxtrshort{ETL}) de dados}
+\section{Extração, transformação e carga (\glsxtrshort{ETL}) de dados}\label{sec:etl_dados}
 % ----------------------------------------------------------
 
 Processos de extração, transformação e carga de dados são responsáveis pela coleta, extração, limpeza, transformação integração e carga de dados de uma ou mais fontes para um sistema destino, tal como um \textit{data warehouse}. De acordo com \cite{vassiliadis2009extraction}, qualquer programa que filtra registros, calcula novos valores e alimenta uma fonte de dados diferente da original pode ser considerado um programa de \glsxtrshort{ETL}.
@@ -516,7 +515,7 @@ A segunda etapa é a transformação. Esta etapa envolve a normalização, forma
 A terceira e última etapa é a carga. Os dados transformados são carregados nas tabelas apropriadas do \textit{data warehouse}, onde servirão como base para processos de análise, visualização e apoio a tomadas de decisões.
 
 % ----------------------------------------------------------
-\section{Apache Airflow}
+\section{Apache Airflow}\label{sec:airflow}
 % ----------------------------------------------------------
 
 O Apache Airflow é uma plataforma de código aberto utilizada para orquestrar e monitorar fluxos de trabalho no formato de grafos acíclicos direcionados, ou \glsxtrshort{DAG}s. No Airflow, os \glsxtrshort{DAG}s são definidos por meio de arquivos, ou \textit{scripts} na linguagem Python que descrevem as tarefas a serem executadas e as dependências entre as tarefas, além de metadados com configurações específicas. O Airflow interpreta estes \textit{scripts} e modela a estrutura das \glsxtrshort{DAG}s, executando as tarefas de acordo com o intervalo de tempo agendado nos metadados.
@@ -536,7 +535,7 @@ De acordo com \cite{de2021data}, o uso de código em Python para definir \glsxtr
 A interface \textit{web} do Airflow oferece diferentes modos de visualização das \glsxtrshort{DAG}s. O modo \textit{graph view} (visualização de grafo) mostra um esquema contendo as tarefas e as respectivas dependências, enquanto o modo \textit{tree view} (visualização de árvore) mostra o histórico dos resultados das execuções das \glsxtrshort{DAG}s, também permitindo verificar detalhes de tarefas específicas, com indicadores de status e \textit{logs} de textos com informações referentes a possíveis erros de execução.
 
 % ----------------------------------------------------------
-\section{Transparência e dados abertos}
+\section{Transparência e dados abertos}\label{sec:transparencia}
 % ----------------------------------------------------------
 
 \cite{possamai2020transparencia} afirmam que dados abertos governamentais são dados públicos produzidos ou curados por órgãos estatais, padronizados em formatos abertos e legíveis por máquina, como \glsxtrshort{JSON} ou \glsxtrshort{XML}, e que podem ser livremente acessados e utilizados para quaisquer finalidades. A disponibilidade de dados abertos governamentais é importante para garantir a transparência com gastos públicos, incentivar a colaboração entre o cidadão e a Administração Pública e combater a corrupção.
@@ -548,7 +547,7 @@ De acordo com \cite{nazario2012avaliaccao}, um dos principais projetos de visual
 Em relação à cidade de Florianópolis, \cite{santos2021ferramenta} afirmam que a Prefeitura Municipal regulamentou o acesso à informação pública por meio do decreto 9988/12, posteriormente instituindo o Portal de Transparência de Florianópolis por meio da Lei Municipal 9.447/14. Analogamente ao Portal de Transparência do Governo Federal, o usuário possui acesso a receitas e despesas da Prefeitura e de seus órgãos.
 
 % ----------------------------------------------------------
-\subsection{Licitações e contratos administrativos}
+\subsection{Licitações e contratos administrativos}\label{ssec:licitacoes_contratos}
 % ----------------------------------------------------------
 
 \cite{tcu2023} define licitação como “o processo por meio do qual a Administração Pública convoca, sob condições estabelecidas em ato próprio (edital de licitação), interessados para apresentação de propostas relativas ao fornecimento de bens, prestação de serviços ou execução de obras”. O processo licitatório é regulamentado pela Lei 14.133/2021, cujo artigo 17 o divide em sete fases: (i) fase preparatória, (ii) divulgação do edital, (iii) apresentação de propostas e lances, (iv) julgamento, (v) habilitação, (vi) recursal e (vii) homologação.
@@ -567,7 +566,7 @@ Segundo a Lei 14.133/2021, existem cinco modalidades de licitação:
 De acordo com \cite{tcu2023}, contratos administrativos são “aqueles firmados entre órgãos ou entidades da Administração Pública e particulares, por meio do qual se estabelece acordo de vontades, para a formação de vínculo e a estipulação de obrigações recíprocas”, que têm como objetivo principal atender a um interesse coletivo.
 
 % ----------------------------------------------------------
-\section{Dados abertos de compras públicas da \glsxtrshort{PMF}}
+\section{Dados abertos de compras públicas da \glsxtrshort{PMF}}\label{sec:dados_abertos}
 % ----------------------------------------------------------
 
 % \attention{Parágrafo inicial com descrição geral}
@@ -577,7 +576,7 @@ De acordo com \cite{tcu2023}, contratos administrativos são “aqueles firmados
 
 Esta seção é dividida em duas subseções. A subseção 2.4.1 descreve a \glsxtrshort{API} de compras públicas disponível no \textit{website} do Portal de Transparência da \glsxtrlong{PMF}, o método de consulta de dados e os parâmetros de pesquisa. A subseção 2.4.2 apresenta um dicionário de dados, no qual os conteúdos das respostas da \glsxtrshort{API} são esquematizados em tabelas.
 
-\subsection{\glsxtrshort{API} de compras públicas da \glsxtrshort{PMF}}
+\subsection{\glsxtrshort{API} de compras públicas da \glsxtrshort{PMF}}\label{ssec:api_compras_pmf}
 
 O Portal de Transparência da \glsxtrlong{PMF} disponibiliza informações relacionadas a compras públicas efetuadas pela Prefeitura e as unidades gestoras que a compõem, em concordância com o princípio de dados abertos. O \textit{website} do Portal, além de mostrar listas com registros de compras, oferece uma \glsxtrshort{API} \glsxtrshort{REST} que permite ao usuário fazer requisições destes registros utilizando o formato \glsxtrshort{JSON}.
 
@@ -590,7 +589,7 @@ O único método fornecido para ambos os \textit{endpoints} é o GET, que retorn
 
 % \url{https://transparencia.e-publica.net/epublica-portal/#/florianopolis/portal/dadosAbertos/contratoView?params=%7B%22mode%22:%22INFO%22%7D&entidade=2002}
 
-\subsection{Descrição dos dados retornados}
+\subsection{Descrição dos dados retornados}\label{ssec:descricao_dados}
 
 A estrutura dos registros  retornados difere de acordo com os \textit{endpoints}. A \autoref{fig:json-licitacoes} apresenta a estrutura dos registros retornados pelo \textit{endpoint} Licitação. Estes registros contêm dados como o valor da licitação, datas de emissão e abertura, modalidade do processo licitatório, advogado responsável, lista de itens negociados e vencedores do processo, lista de \textit{links} a documentos relacionados, lista de empenhos e lista de contratos.
 
@@ -630,6 +629,7 @@ registros & Lista & - & Lista de registros (licitações ou contratos). \\
 \hline
 \end{longtable}
 
+\newpage
 \subsubsection*{Licitação}
 \begin{longtable}{|p{4cm}|p{3cm}|p{2cm}|p{6cm}|}
 \hline
@@ -676,6 +676,7 @@ denominacao & Texto & 100 & Nome da unidade gestora responsável pela licitaçã
 \hline
 \end{longtable}
 
+\newpage
 \subsubsection*{Advogado}
 \begin{longtable}{|p{4cm}|p{3cm}|p{2cm}|p{6cm}|}
 \hline
@@ -721,6 +722,7 @@ situacao & Texto & 20 & Situação da pessoa jurídica (exemplo: 'Vencedor'). \\
 \hline
 \end{longtable}
 
+\newpage
 \subsubsection*{Texto}
 \begin{longtable}{|p{4cm}|p{3cm}|p{2cm}|p{6cm}|}
 \hline
@@ -755,51 +757,6 @@ recursoDiaria & Texto & 20 & Informação sobre recurso de diária (se aplicáve
 \hline
 \end{longtable}
 
-% \begin{itemize}
-%     \item "licitacao": dados principais da licitação, como número identificador, modalidade, valor estimado, resumo do objeto, datas de emissão e abertura, finalidade e forma de julgamento.
-%     \begin{itemize}
-%         \item "numero";
-%         \item "modalidade";
-%         \item "valorEstimado";
-%         \item "objetoResumido";
-%         \item "dataEmissao";
-%         \item "aberturaData";
-%         \item "finalidade";
-%         \item "formaJulgamento";
-%     \end{itemize}
-%     \item "unidadeGestora": identificação do órgão responsável pela licitação.
-%     \item "advogado": nome do representante jurídico vinculado ao processo licitatório.
-%     \item "listItens": itens licitados, com descrição, quantidade, unidade, valor estimado e situação.
-%     \begin{itemize}
-%         \item "numero";
-%         \item "denominacao";
-%         \item "quantidade";
-%         \item "unidadeMedida";
-%         \item "valorUnitarioEstimado";
-%         \item "situacao";
-%         \item "listVencedores": para cada item, a lista de fornecedores vencedores, com valores e quantidades ofertadas.
-%         \begin{itemize}
-%             \item "fornecedor";
-%             \item "quantidade";
-%             \item "valorUnitario";
-%             \item "situacao";
-%         \end{itemize}
-%     \end{itemize}
-%     \item "listTextos": documentos e arquivos complementares (ex.: edital, ata, contratos), com link para acesso.
-%     \item "listEmpenhos" (opcional): informações sobre os empenhos associados à licitação, como data de emissão, número, espécie, categoria e objeto do empenho.
-%     \begin{itemize}
-%         \item "emissao";
-%         \item "numero";
-%         \item "objetoResumido";
-%         \item "especie";
-%         \item "categoria";
-%         \item "contrato";
-%         \item "licitacao";
-%         \item "recursoDiaria";
-%     \end{itemize}
-%     \item "listContratos" (opcional): informações de contratos associados à licitação, como número, valor total e datas de assinatura e início de vigência.
-% \end{itemize}
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.4\linewidth]{images/json_contrato_v2.png}
@@ -807,7 +764,8 @@ recursoDiaria & Texto & 20 & Informação sobre recurso de diária (se aplicáve
     \label{fig:json-contratos}
 \end{figure}
 
-No arquivo dos contratos, como mostra a figura 3, o registro contém as seguintes propriedades:
+\newpage
+No arquivo dos contratos, como mostra a \autoref{fig:json-contratos}, o registro contém as seguintes propriedades:
 
 \subsubsection*{Contrato}
 \begin{longtable}{|p{4cm}|p{3cm}|p{2cm}|p{6cm}|}
@@ -836,30 +794,7 @@ listEmpenhos (opcional) & Objeto & - & Lista de empenhos associados ao contrato.
 \hline
 \end{longtable}
 
-% \begin{itemize}
-%     \item "contrato": dados principais do contrato, como número identificador, datas de assinatura, início de vigência e vencimento, valor total e resumo do objeto.
-%     \begin{itemize}
-%         \item "numero";
-%         \item "assinatura";
-%         \item "inicioVigencia";
-%         \item "vencimento";
-%         \item "valorTotal";
-%         \item "objetoResumido";
-%     \end{itemize}
-%     \item "unidadeGestora": identificação do órgão responsável pelo contrato.
-%     \item "fornecedor": nome da pessoa ou empresa contratada.
-%     \item "listItens": descrição dos itens contratados, com denominação, quantidade, unidade de medida e valores unitário e total.
-%     \begin{itemize}
-%         \item "numero";
-%         \item "denominacao";
-%         \item "quantidade";
-%         \item "unidadeMedida";
-%         \item "valorUnitario";
-%         \item "valorTotal";
-%     \end{itemize}
-%     \item "listEmpenhos" (opcional): informações sobre os empenhos associados ao contrato, como data de emissão, número, espécie, categoria e objeto do empenho.
-% \end{itemize}
-
+\newpage
 \subsubsection*{Item do contrato}
 \begin{longtable}{|p{4cm}|p{3cm}|p{2cm}|p{6cm}|}
 \hline
