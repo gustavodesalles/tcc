@@ -2465,24 +2465,19 @@
     <bcf:citekey order="23">santos2021ferramenta</bcf:citekey>
     <bcf:citekey order="24">jesus2021modelo</bcf:citekey>
     <bcf:citekey order="25">mello2024sbbd_estendido</bcf:citekey>
-    <bcf:citekey order="26">schmitz2024sbbd</bcf:citekey>
-    <bcf:citekey order="27">schneider2024sbbd</bcf:citekey>
-    <bcf:citekey order="28">santos2021ferramenta</bcf:citekey>
-    <bcf:citekey order="29">jesus2021modelo</bcf:citekey>
-    <bcf:citekey order="30">mello2024sbbd_estendido</bcf:citekey>
-    <bcf:citekey order="31">hollingsworth1995workflow</bcf:citekey>
-    <bcf:citekey order="32">vassiliadis2002conceptual</bcf:citekey>
-    <bcf:citekey order="33">finnigan2021building</bcf:citekey>
-    <bcf:citekey order="34">vassiliadis2009extraction</bcf:citekey>
-    <bcf:citekey order="35">de2021data</bcf:citekey>
-    <bcf:citekey order="36">possamai2020transparencia</bcf:citekey>
-    <bcf:citekey order="37">nazario2012avaliaccao</bcf:citekey>
-    <bcf:citekey order="38">santos2021ferramenta</bcf:citekey>
-    <bcf:citekey order="39">tcu2023</bcf:citekey>
-    <bcf:citekey order="40">schmitz2024sbbd</bcf:citekey>
-    <bcf:citekey order="41">schneider2024sbbd</bcf:citekey>
-    <bcf:citekey order="42">jesus2021modelo</bcf:citekey>
-    <bcf:citekey order="43">mello2024sbbd_estendido</bcf:citekey>
+    <bcf:citekey order="26">hollingsworth1995workflow</bcf:citekey>
+    <bcf:citekey order="27">vassiliadis2002conceptual</bcf:citekey>
+    <bcf:citekey order="28">finnigan2021building</bcf:citekey>
+    <bcf:citekey order="29">vassiliadis2009extraction</bcf:citekey>
+    <bcf:citekey order="30">de2021data</bcf:citekey>
+    <bcf:citekey order="31">possamai2020transparencia</bcf:citekey>
+    <bcf:citekey order="32">nazario2012avaliaccao</bcf:citekey>
+    <bcf:citekey order="33">santos2021ferramenta</bcf:citekey>
+    <bcf:citekey order="34">tcu2023</bcf:citekey>
+    <bcf:citekey order="35">schmitz2024sbbd</bcf:citekey>
+    <bcf:citekey order="36">schneider2024sbbd</bcf:citekey>
+    <bcf:citekey order="37">jesus2021modelo</bcf:citekey>
+    <bcf:citekey order="38">mello2024sbbd_estendido</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

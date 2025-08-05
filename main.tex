@@ -339,7 +339,7 @@
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
 	\SingleSpacing
-Um fluxo de trabalho (\textit{workflow}) especifica um processo envolvendo encadeamento de tarefas e fluxo de informações entre elas para alcançar um objetivo de negócio. A orquestração de um \textit{workflow} automatiza e gerencia a execução de uma instância de processo de acordo com a especificação do \textit{workflow}, usando um \textit{software} de orquestração. O orquestrador invoca recursos humanos e/ou de TI apropriados para executar cada tarefa, coordenar a execução das mesmas de acordo com o encadeamento especificado e reportar eventuais problemas encontrados durante a execução. Este trabalho de conclusão de curso está no contexto do projeto de pesquisa CÉOS, executado pela Universidade Federal de Santa Catarina (UFSC), em parceria com o Ministério Público de Santa Catarina (\glsxtrshort{MPSC}). O projeto CÉOS tem o objetivo de desenvolver \textit{workflows} para análise e processamento de dados em grande escala a fim de automatizar a extração de conhecimento e aumentar a eficiência das decisões tomadas em atividades do \glsxtrshort{MPSC}. Neste trabalho, será especificado e implementado um fluxo de trabalho para extração, transformação e carga (\textit{extract, transform, load} - \glsxtrshort{ETL}) de dados referentes a licitações e compras feitas pela \glsxtrlong{PMF}. O fluxo será orquestrado pelo Airflow de acordo com grafos acíclicos direcionados (\textit{directed acyclic graph} - \glsxtrshort{DAG}) especificados na plataforma. Os resultados serão avaliados usando métricas referentes à quantidade e qualidade dos dados, a frequência de erros e o tempo de execução dos processos de \glsxtrshort{ETL}.
+Um fluxo de trabalho (\textit{workflow}) especifica um processo envolvendo encadeamento de tarefas e fluxo de informações entre elas para alcançar um objetivo de negócio. A orquestração de um \textit{workflow} automatiza e gerencia a execução de uma instância de processo de acordo com a especificação do \textit{workflow}, usando um \textit{software} de orquestração. O orquestrador invoca recursos humanos e/ou de TI apropriados para executar cada tarefa, coordenar a execução das mesmas de acordo com o encadeamento especificado e reportar eventuais problemas encontrados durante a execução. Este trabalho de conclusão de curso está no contexto do projeto de pesquisa CÉOS, executado pela Universidade Federal de Santa Catarina (UFSC), em parceria com o Ministério Público de Santa Catarina (\glsxtrshort{MPSC}). O projeto CÉOS tem o objetivo de desenvolver \textit{workflows} para análise e processamento de dados em grande escala a fim de automatizar a extração de conhecimento e aumentar a eficiência das decisões tomadas em atividades do \glsxtrshort{MPSC}. Neste trabalho, é especificado e implementado um fluxo de trabalho para extração, transformação e carga (\textit{extract, transform, load} - \glsxtrshort{ETL}) de dados referentes a licitações e compras feitas pela \glsxtrlong{PMF}. O fluxo é orquestrado pelo Airflow de acordo com grafos acíclicos direcionados (\textit{directed acyclic graph} - \glsxtrshort{DAG}) especificados na plataforma. Os resultados são avaliados usando métricas referentes à quantidade e qualidade dos dados, a frequência de erros e o tempo de execução dos processos de \glsxtrshort{ETL}.
 	
 	\textbf{Palavras-chave}: Extração, transformação e carga de dados. Dados abertos. Licitações.
 \end{resumo}
@@ -348,7 +348,7 @@ Um fluxo de trabalho (\textit{workflow}) especifica um processo envolvendo encad
 \begin{resumo}[Abstract]
 	\SingleSpacing
 	\begin{otherlanguage*}{english}
-		A workflow specifies a process involving the chaining of tasks and the flow of information between them in order to achieve a business objective. The orchestration of a workflow automates and manages the execution of a process instance according to the workflow specification, using orchestration software. The orchestrator invokes appropriate human and/or IT resources to execute each task, coordinates their execution according to the specified chaining, and reports any issues encountered during execution. This undergraduate thesis is part of the CÉOS research project, carried out by the Federal University of Santa Catarina (UFSC) in partnership with the Public Prosecutor's Office of Santa Catarina (\glsxtrshort{MPSC}). The CÉOS project aims to develop workflows for the analysis and processing of large-scale data in order to automate knowledge extraction and improve the efficiency of decision-making processes within \glsxtrshort{MPSC} activities. In this work, a workflow will be specified and implemented for extract, transform, and load (\glsxtrshort{ETL}) processes involving data related to bidding and procurement carried out by the Municipality of Florianópolis. The workflow will be orchestrated by Airflow according to directed acyclic graphs (\glsxtrshort{DAG}s) specified in the platform. The results will be evaluated using metrics related to data quantity and quality, error frequency, and \glsxtrshort{ETL} process execution time.
+		A workflow specifies a process involving the chaining of tasks and the flow of information between them in order to achieve a business objective. The orchestration of a workflow automates and manages the execution of a process instance according to the workflow specification, using orchestration software. The orchestrator invokes appropriate human and/or IT resources to execute each task, coordinates their execution according to the specified chaining, and reports any issues encountered during execution. This undergraduate thesis is part of the CÉOS research project, carried out by the Federal University of Santa Catarina (UFSC) in partnership with the Public Prosecutor's Office of Santa Catarina (\glsxtrshort{MPSC}). The CÉOS project aims to develop workflows for the analysis and processing of large-scale data in order to automate knowledge extraction and improve the efficiency of decision-making processes within \glsxtrshort{MPSC} activities. In this work, a workflow is specified and implemented for extract, transform, and load (\glsxtrshort{ETL}) processes involving data related to bidding and procurement carried out by the Municipality of Florianópolis. The workflow is orchestrated by Airflow according to directed acyclic graphs (\glsxtrshort{DAG}s) specified in the platform. The results are evaluated using metrics related to data quantity and quality, error frequency, and \glsxtrshort{ETL} process execution time.
 		
 		\textbf{Keywords}: Extraction, transformation and loading of data. Open data. Public procurement.
 	\end{otherlanguage*}
@@ -440,8 +440,8 @@ O uso de plataformas de orquestração de \textit{workflows} é imprescindível 
 
 O Apache Airflow é uma plataforma de orquestração de \textit{workflows} de código aberto utilizada para implementar e manter \textit{pipelines} de dados. No Airflow, \textit{workflows} são definidos por grafos acíclicos direcionados, ou \glsxtrshort{DAG}s (do inglês \textit{directed acyclic graph}). \glsxtrshort{DAG}s são \textit{scripts} escritos na linguagem Python, utilizando construções básicas como operadores. \glsxtrshort{DAG}s definem as tarefas a serem executadas, as quais podem ser especificadas por operadores, e relações que indicam a ordem de execução e as dependências entre tarefas. Estes componentes formarão a \textit{pipeline} do Airflow \cite{finnigan2021building}.
 
-Este trabalho busca descrever, de forma detalhada, o desenvolvimento de um fluxo de \glsxtrshort{ETL} desde a obtenção de dados até o processamento e carga dos dados. Primeiramente, duas fontes serão acessadas: (i) um \textit{web scraper} que acessa o Portal da Transparência da Controladoria-Geral da União e extrai dados referentes a contratos de compras feitas por órgãos do município de Florianópolis e (ii) um \textit{script} que faz uma requisição da \glsxtrshort{API} de dados públicos do Portal de Transparência da \glsxtrlong{PMF} buscando registros de contratos e licitações, incluindo número, nome e CPF/CNPJ do fornecedor, período de vigência e valor monetário. Depois, a orquestração dos fluxos de trabalho será implementada por meio da execução de processos de acordo com especificações desses fluxos na forma de \glsxtrshort{DAG}s no Airflow. Esses processos visam limpar e padronizar os dados em
-um formato adequado para o armazenamento. A análise exploratória e a visualização dos dados serão feitas com a geração de tabelas, gráficos e eventualmente grafos, que permitirão analisar a estrutura e a distribuição dos dados, tais como os custos dos contratos para identificar irregularidades. O desempenho do fluxo de \glsxtrshort{ETL} será avaliado com base nos tempos de execução das tarefas dos \glsxtrshort{DAG}s, na quantidade de dados tratados e na quantidade de erros encontrados durante e após a transformação.
+Este trabalho busca descrever, de forma detalhada, o desenvolvimento de um fluxo de \glsxtrshort{ETL} desde a obtenção de dados até o processamento e carga dos dados. Primeiramente, duas fontes são acessadas: (i) um \textit{web scraper} que acessa o Portal da Transparência da Controladoria-Geral da União e extrai dados referentes a contratos de compras feitas por órgãos do município de Florianópolis e (ii) um \textit{script} que faz uma requisição da \glsxtrshort{API} de dados públicos do Portal de Transparência da \glsxtrlong{PMF} buscando registros de contratos e licitações, incluindo número, nome e CPF/CNPJ do fornecedor, período de vigência e valor monetário. Depois, a orquestração dos fluxos de trabalho é implementada por meio da execução de processos de acordo com especificações desses fluxos na forma de \glsxtrshort{DAG}s no Airflow. Esses processos visam limpar e padronizar os dados em
+um formato adequado para o armazenamento. A análise exploratória e a visualização dos dados são feitas com a geração de tabelas, gráficos e eventualmente grafos, que permitem analisar a estrutura e a distribuição dos dados, tais como os custos dos contratos para identificar irregularidades. O desempenho do fluxo de \glsxtrshort{ETL} é avaliado com base nos tempos de execução das tarefas dos \glsxtrshort{DAG}s, na quantidade de dados tratados e na quantidade de erros encontrados durante e após a transformação.
 
 % ----------------------------------------------------------
 \section{Objetivos}
@@ -450,7 +450,7 @@ um formato adequado para o armazenamento. A análise exploratória e a visualiza
 \subsection{Objetivo Geral}
 % ----------------------------------------------------------
 
-O objetivo geral deste trabalho é orquestrar um fluxo de extração, transformação e carregamento de dados relacionados a compras feitas por órgãos públicos do município de Florianópolis, com o intuito de suprir dados para  analisar os gastos com as compras no projeto Céos. Os resultados serão avaliados através de uma análise exploratória de dados resultantes em tabelas e gráficos, que permitirão visualizar suas distribuições. Também serão medidos os tempos de execução das tarefas e as quantidades de erros encontrados nos dados, tratados ou não dentro nos processos de \glsxtrshort{ETL} implementados e avaliados.
+O objetivo geral deste trabalho é orquestrar um fluxo de extração, transformação e carregamento de dados relacionados a compras feitas por órgãos públicos do município de Florianópolis, com o intuito de suprir dados para  analisar os gastos com as compras no projeto CÉOS. Os resultados serão avaliados através de uma análise exploratória de dados resultantes em tabelas e gráficos, que permitirão visualizar suas distribuições. Também serão medidos os tempos de execução das tarefas e as quantidades de erros encontrados nos dados, tratados ou não dentro nos processos de \glsxtrshort{ETL} implementados e avaliados.
 
 % ----------------------------------------------------------
 \subsection{Objetivos Específicos}
@@ -481,7 +481,7 @@ A terceira e última etapa envolve a orquestração completa do fluxo \glsxtrsho
 \section{Organização do documento}
 % ----------------------------------------------------------
 
-O trabalho está organizado da seguinte maneira: o capítulo 2 apresenta os fundamentos de conceitos e tecnologias utilizados para desenvolver o trabalho. No capítulo 3, faz-se uma comparação de trabalhos que abordam temas semelhantes a este. O capítulo 4 descreve os processos de análise exploratória dos dados e implementação do fluxo \glsxtrshort{ETL}. No capítulo 5, são discutidos os resultados obtidos a partir da análise. Finalmente, o capítulo 6 apresenta conclusões e temas para trabalhos futuros.
+O trabalho está organizado da seguinte maneira: o Capítulo 2 apresenta os fundamentos de conceitos e tecnologias utilizados para desenvolver o trabalho. No Capítulo 3, faz-se uma comparação de trabalhos que abordam temas semelhantes a este. O Capítulo 4 descreve os processos de análise exploratória dos dados e implementação do fluxo \glsxtrshort{ETL}. No Capítulo 5, são discutidos os resultados obtidos a partir da análise. Finalmente, o Capítulo 6 apresenta conclusões e temas para trabalhos futuros.
 % ---
 
 % ---
@@ -490,7 +490,7 @@ O trabalho está organizado da seguinte maneira: o capítulo 2 apresenta os fund
 % ----------------------------------------------------------
 \chapter{Fundamentos}\label{cap:fundamentos}
 % ----------------------------------------------------------
-Neste capítulo são apresentados conceitos teóricos relacionados ao trabalho. Na seção \ref{sec:etl_dados}, apresenta-se o processo de extração, transformação e carga de dados com as definições de cada etapa do processo. A seção \ref{sec:airflow} apresenta a plataforma de software Apache Airflow, utilizada para orquestrar fluxos de trabalho, além de seus componentes e sua interface gráfica. A seção \ref{sec:transparencia} apresenta o conceito de dados abertos e iniciativas de transparência governamental em nível federal e municipal; na subseção \ref{ssec:licitacoes_contratos}, são definidos licitações e contratos administrativos de acordo com a Lei 14.133/2021. Por fim, a seção \ref{sec:dados_abertos} apresenta a \glsxtrshort{API} de compras públicas da \glsxtrlong{PMF} e define um dicionário de dados a partir dos resultados de consultas feitas.
+Neste capítulo são apresentados conceitos teóricos relacionados ao trabalho. Na Seção \ref{sec:etl_dados}, apresenta-se o processo de extração, transformação e carga de dados com as definições de cada etapa do processo. A Seção \ref{sec:airflow} apresenta a plataforma de software Apache Airflow, utilizada para orquestrar fluxos de trabalho, além de seus componentes e sua interface gráfica. A Seção \ref{sec:transparencia} apresenta o conceito de dados abertos e iniciativas de transparência governamental em nível federal e municipal; na Subseção \ref{ssec:licitacoes_contratos}, são definidos licitações e contratos administrativos de acordo com a Lei 14.133/2021. Por fim, a Seção \ref{sec:dados_abertos} apresenta a \glsxtrshort{API} de compras públicas da \glsxtrlong{PMF} e define um dicionário de dados a partir dos resultados de consultas feitas.
 
 % ----------------------------------------------------------
 \section{Extração, transformação e carga (\glsxtrshort{ETL}) de dados}\label{sec:etl_dados}
@@ -508,7 +508,7 @@ Processos de extração, transformação e carga de dados são responsáveis pel
 % 	\fonte{\cite{vassiliadis2009extraction}}
 % \end{figure}
 
-A primeira etapa do processo \glsxtrshort{ETL} é a extração. Nesta, dados são obtidos de fontes, que podem estar no formato de documentos de texto, planilhas, páginas da web ou streaming. Geralmente, busca-se extrair apenas os dados que foram inseridos ou atualizados após a última execução do processo.
+A primeira etapa do processo \glsxtrshort{ETL} é a extração. Nesta, dados são obtidos de fontes, que podem estar no formato de documentos de texto, planilhas, páginas da Web ou \textit{streaming}. Geralmente, busca-se extrair apenas os dados que foram inseridos ou atualizados após a última execução do processo.
 
 A segunda etapa é a transformação. Esta etapa envolve a normalização, formatação, padronização e enriquecimento de dados visando resolver problemas em nível de esquema (conflitos de nomeação de objetos ou diferenças na estruturação de dados entre fontes e o \textit{data warehouse}) e em nível de registro (registros duplicados, contraditórios, ou com referências temporais diferentes).
 
@@ -524,15 +524,23 @@ De acordo com \cite{de2021data}, o uso de código em Python para definir \glsxtr
 
 \cite{de2021data} afirmam que o Airflow pode ser dividido em três componentes: (i) o escalonador, que lê os \textit{scripts} de \glsxtrshort{DAG}s desenvolvidos e obtém as tarefas, dependências e intervalos de execução, verifica se o intervalo de cada \glsxtrshort{DAG} passou e, se este for o caso, adiciona as respectivas tarefas à fila de execução, (ii) os trabalhadores, que obtêm tarefas escalonadas da fila e as executam em paralelo e (iii) o servidor \textit{web}, que fornece uma interface com representações visuais das \glsxtrshort{DAG}s e permite que o usuário monitore os resultados das tarefas executadas.
 
-\begin{figure}[htb]
+\begin{figure}[hb!]
 	\caption{\label{fig:Fig_2}Diagrama mostrando os componentes do Airflow.}
 	\begin{center}
-		\includegraphics[scale=0.6]{images/airflow-components.png}
+		\includegraphics[scale=0.55]{images/airflow-components.png}
 	\end{center}
 	\fonte{\cite{de2021data}}
 \end{figure}
 
 A interface \textit{web} do Airflow oferece diferentes modos de visualização das \glsxtrshort{DAG}s. O modo \textit{graph view} (visualização de grafo) mostra um esquema contendo as tarefas e as respectivas dependências, enquanto o modo \textit{tree view} (visualização de árvore) mostra o histórico dos resultados das execuções das \glsxtrshort{DAG}s, também permitindo verificar detalhes de tarefas específicas, com indicadores de status e \textit{logs} de textos com informações referentes a possíveis erros de execução.
+
+\begin{figure}[h!]
+	\caption{\label{fig:teste}Exemplo básico de \textit{graph view} de uma \glsxtrshort{DAG} no Airflow.}
+	\begin{center}
+		\includegraphics[trim={11cm 6cm 0 9cm},width=\textwidth]{images/tutorial_dag-graph (2).png}
+	\end{center}
+	\fonte{Elaborada pelo autor.}
+\end{figure}
 
 % ----------------------------------------------------------
 \section{Transparência e dados abertos}\label{sec:transparencia}
@@ -574,7 +582,7 @@ De acordo com \cite{tcu2023}, contratos administrativos são “aqueles firmados
 
 \urldef{\contratos}\url{https://transparencia.e-publica.net/epublica-portal/#/florianopolis/portal/dadosAbertos/contratoView}
 
-Esta seção é dividida em duas subseções. A subseção 2.4.1 descreve a \glsxtrshort{API} de compras públicas disponível no \textit{website} do Portal de Transparência da \glsxtrlong{PMF}, o método de consulta de dados e os parâmetros de pesquisa. A subseção 2.4.2 apresenta um dicionário de dados, no qual os conteúdos das respostas da \glsxtrshort{API} são esquematizados em tabelas.
+Esta seção é dividida em duas subseções. A Subseção 2.4.1 descreve a \glsxtrshort{API} de compras públicas disponível no \textit{website} do Portal de Transparência da \glsxtrlong{PMF}, o método de consulta de dados e os parâmetros de pesquisa. A Subseção 2.4.2 apresenta um dicionário de dados, no qual os conteúdos das respostas da \glsxtrshort{API} são esquematizados em tabelas.
 
 \subsection{\glsxtrshort{API} de compras públicas da \glsxtrshort{PMF}}\label{ssec:api_compras_pmf}
 
@@ -612,7 +620,7 @@ O \textit{Website} do Portal de Transparência da \glsxtrlong{PMF} também dispo
 
 Os arquivos \glsxtrshort{JSON} seguem padrões semelhantes; ambos os \textit{endpoints} consultados no trabalho retornam arquivos com as seguintes propriedades:
 
-
+\newpage
 \subsubsection*{Cabeçalho do \glsxtrshort{JSON}}
 
 \begin{longtable}{|p{4cm}|p{3cm}|p{2cm}|p{6cm}|}
@@ -846,38 +854,38 @@ A busca bibliográfica foi feita pela plataforma Google Scholar utilizando as pa
 
 % <ADICIONAR TABELA COMPARATIVA>
 \begin{table}[h]
-\caption{Comparação de trabalhos relacionados (parte 1)}
+\caption{Comparação de trabalhos relacionados}
 \label{tab:trabalhos-relacionados-1}
 \center
-\begin{tabular}{| l | p{7cm} |}
+\begin{tabular}{| p{0.28\textwidth} | p{0.33\textwidth} | p{0.3\textwidth} |}
 \hline
-\textbf{Trabalho} & \textbf{Metodologia} \\ \hline
-\cite{schmitz2024sbbd} & Aprendizado de máquina com modelos de mistura gaussiana \\ \hline
-\cite{schneider2024sbbd} & \glsxtrshort{ETL} com validação cruzada e otimização de hiperparâmetros \\ \hline
-\cite{santos2021ferramenta} & Extração de arquivos \glsxtrshort{CSV} e interface gráfica \\ \hline
-\cite{jesus2021modelo} & Mineração de dados e treinamento supervisionado \\ \hline
-\cite{mello2024sbbd_estendido} & Modelagem conceitual com persistência poliglota \\ \hline
+\textbf{Trabalho} & \textbf{Metodologia} & \textbf{Conjunto de dados} \\ \hline
+\cite{schmitz2024sbbd} & Aprendizado de máquina com modelos de mistura gaussiana & Licitações referentes à Operação Patrola \\ \hline
+\cite{schneider2024sbbd} & \glsxtrshort{ETL} com validação cruzada e otimização de hiperparâmetros & Licitações referentes à Operação Lava Jato \\ \hline
+\cite{santos2021ferramenta} & Extração de arquivos \glsxtrshort{CSV} e interface gráfica & Balancetes de vereadores de Florianópolis \\ \hline
+\cite{jesus2021modelo} & Mineração de dados e treinamento supervisionado & Licitações do Estado de Goiás entre 2014 e 2019 \\ \hline
+\cite{mello2024sbbd_estendido} & Modelagem conceitual com persistência poliglota & - \\ \hline
 % \cite{Anvisa2022} & - & - & Sim \\ \hline
 % Trabalho proposto & Sim & Não & Sim \\ \hline
 \end{tabular}
 \fonte{Elaborada pelo autor.}
 \end{table}
 
-\begin{table}[h]
-\caption{Comparação de trabalhos relacionados (parte 2)}
-\label{tab:trabalhos-relacionados-2}
-\center
-\begin{tabular}{| l | c |}
-\hline
-\textbf{Trabalho} & \textbf{Conjunto de dados} \\ \hline
-\cite{schmitz2024sbbd} & Licitações referentes à Operação Patrola \\ \hline
-\cite{schneider2024sbbd} & Licitações referentes à Operação Lava Jato \\ \hline
-\cite{santos2021ferramenta} & Balancetes de vereadores de Florianópolis \\ \hline
-\cite{jesus2021modelo} & Licitações do Estado de Goiás entre 2014 e 2019 \\ \hline
-\cite{mello2024sbbd_estendido} & - \\ \hline
-\end{tabular}
-\fonte{Elaborada pelo autor.}
-\end{table}
+%\begin{table}[h]
+%\caption{Comparação de trabalhos relacionados (parte 2)}
+%\label{tab:trabalhos-relacionados-2}
+%\center
+%\begin{tabular}{| l | c |}
+%\hline
+%\textbf{Trabalho} & \textbf{Conjunto de dados} \\ \hline
+%\cite{schmitz2024sbbd} & Licitações referentes à Operação Patrola \\ \hline
+%\cite{schneider2024sbbd} & Licitações referentes à Operação Lava Jato \\ \hline
+%\cite{santos2021ferramenta} & Balancetes de vereadores de Florianópolis \\ \hline
+%\cite{jesus2021modelo} & Licitações do Estado de Goiás entre 2014 e 2019 \\ \hline
+%\cite{mello2024sbbd_estendido} & - \\ \hline
+%\end{tabular}
+%\fonte{Elaborada pelo autor.}
+%\end{table}
 
 % ----------------------------------------------------------
 \chapter{Desenvolvimento}
@@ -921,7 +929,7 @@ Com os resultados desta análise exploratória, obtém-se uma visão geral do co
 \section{Esquema relacional para os dados coletados}
 % ----------------------------------------------------------
 
-Nesta seção, é apresentado um esquema de dados modelado com base na \glsxtrshort{API} de compras públicas da \glsxtrlong{PMF} e no dicionário de dados descritos na seção 2.4. O esquema visa representar a estrutura lógica dos dados de maneira clara e concisa para fins de análise. Um diagrama entidade-relacionamento é apresentado para mostrar a definição das tabelas em formato relacional e suas respectivas conexões.
+Nesta seção, é apresentado um esquema de dados modelado com base na \glsxtrshort{API} de compras públicas da \glsxtrlong{PMF} e no dicionário de dados descritos na Seção 2.4. O esquema visa representar a estrutura lógica dos dados de maneira clara e concisa para fins de análise. Um diagrama entidade-relacionamento é apresentado para mostrar a definição das tabelas em formato relacional e suas respectivas conexões.
 
 \begin{figure}[h]
 \begin{center}

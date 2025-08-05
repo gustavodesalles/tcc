@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  23 JUL 2025 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  5 AUG 2025 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1499,39 +1499,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [16
 
 ]
-<images/airflow-components.png, id=290, 779.91376pt x 579.66562pt>
+<images/airflow-components.png, id=291, 779.91376pt x 579.66562pt>
 File: images/airflow-components.png Graphic file (type png)
 <use images/airflow-components.png>
 Package pdftex.def Info: images/airflow-components.png  used on input line 530.
 
-(pdftex.def)             Requested size: 467.95187pt x 347.80205pt.
-
-Overfull \hbox (12.95187pt too wide) in paragraph at lines 530--531
- [] 
- []
-
-[17] [18 <./images/airflow-components.png (PNG copy)>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 569.
-
+(pdftex.def)             Requested size: 428.9539pt x 318.81708pt.
+[17 <./images/airflow-components.png (PNG copy)>]
+<images/tutorial_dag-graph (2).png, id=305, 1228.59pt x 835.12pt>
+File: images/tutorial_dag-graph (2).png Graphic file (type png)
+<use images/tutorial_dag-graph (2).png>
+Package pdftex.def Info: images/tutorial_dag-graph (2).png  used on input line 
+540.
+(pdftex.def)             Requested size: 455.0pt x 202.9115pt.
+[18 <./images/tutorial_dag-graph (2).png>] [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 579.
+(hyperref)                removing `\glsxtrshort' on input line 577.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 579.
+(hyperref)                removing `\glsxtrshort' on input line 587.
 
-[19]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glsxtrshort' on input line 587.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 583.
+(Font)              <10> on input line 591.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 583.
+(Font)              <7> on input line 591.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 583.
+(Font)              <5> on input line 591.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-83.
+91.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1540,202 +1541,213 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
  [][] [][][]\T1/lmr/m/n/10 (+10) Disponível em: [][]$\T1/lmtt/m/n/10 https : / 
 / transparencia . e-[]publica . net / epublica-[]portal / # / florianopolis /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
  [][] [][][]\T1/lmr/m/n/10 (+10) Disponível em: [][]$\T1/lmtt/m/n/10 https : / 
 / transparencia . e-[]publica . net / epublica-[]portal / # / florianopolis /
  []
 
-<images/json_licitacao_v2.png, id=353, 185.94469pt x 319.1925pt>
+[20]
+<images/json_licitacao_v2.png, id=370, 185.94469pt x 319.1925pt>
 File: images/json_licitacao_v2.png Graphic file (type png)
 <use images/json_licitacao_v2.png>
-Package pdftex.def Info: images/json_licitacao_v2.png  used on input line 602.
+Package pdftex.def Info: images/json_licitacao_v2.png  used on input line 610.
 (pdftex.def)             Requested size: 163.80028pt x 281.18736pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
+[21 <./images/json_licitacao_v2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 []|\T1/lmr/m/n/12 (+10) Tipo de in-for-ma-ção re-tor-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 622--623
+Underfull \hbox (badness 2503) in paragraph at lines 630--631
 \T1/lmr/m/n/12 (+10) nada pela [][][]API[][] (\T1/lmtt/m/n/12 `Licitacao'\T1/lm
 r/m/n/12 (+10) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 \T1/lmtt/m/n/12 `Contrato'\T1/lmr/m/n/12 (+10) , \T1/lmtt/m/n/12 `Receita'\T1/l
 mr/m/n/12 (+10) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 \T1/lmtt/m/n/12 `Despesa Orçamentária'\T1/lmr/m/n/12 (+10) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 []|\T1/lmr/m/n/12 (+10) Data da úl-tima atu-a-li-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 \T1/lmr/m/n/12 (+10) ção dos da-dos no for-mato
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 618--630
- [] [] [] [] 
- []
-
-[20] [21 <./images/json_licitacao_v2.png (PNG copy)>]
-Underfull \hbox (badness 1983) in paragraph at lines 650--651
-[]|\T1/lmr/m/n/12 (+10) Finalidade da li-ci-ta-ção (exem-
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 662--662
-[]|\T1/lmr/m/n/12 (+10) listEmpenhos (op-ci-o-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 664--664
-[]|\T1/lmr/m/n/12 (+10) listContratos (op-ci-o-
- []
-
-
-Overfull \hbox (21.79128pt too wide) in alignment at lines 634--666
- [] [] [] [] 
- []
-
-
-Overfull \hbox (21.79128pt too wide) in alignment at lines 669--677
+Overfull \hbox (21.79128pt too wide) in alignment at lines 626--638
  [] [] [] [] 
  []
 
 [22]
-Overfull \hbox (21.79128pt too wide) in alignment at lines 681--687
- [] [] [] [] 
+Underfull \hbox (badness 1983) in paragraph at lines 658--659
+[]|\T1/lmr/m/n/12 (+10) Finalidade da li-ci-ta-ção (exem-
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 700--701
-[]|\T1/lmr/m/n/12 (+10) Unidade de me-dida do item
- []
-
-
-Overfull \hbox (1.43538pt too wide) in paragraph at lines 702--702
-[]|\T1/lmr/m/n/12 (-10) valorUnitarioEstimado| 
- []
-
-
-Overfull \hbox (21.79128pt too wide) in alignment at lines 690--708
- [] [] [] [] 
- []
-
-
-Overfull \hbox (21.79128pt too wide) in alignment at lines 711--723
- [] [] [] [] 
- []
-
-[23]
-Overfull \hbox (21.79128pt too wide) in alignment at lines 727--735
- [] [] [] [] 
- []
-
-
-Overfull \hbox (21.79128pt too wide) in alignment at lines 738--758
- [] [] [] [] 
- []
-
-<images/json_contrato_v2.png, id=401, 181.42781pt x 272.51813pt>
-File: images/json_contrato_v2.png Graphic file (type png)
-<use images/json_contrato_v2.png>
-Package pdftex.def Info: images/json_contrato_v2.png  used on input line 762.
-(pdftex.def)             Requested size: 181.99722pt x 273.37822pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[24]
-Underfull \hbox (badness 3291) in paragraph at lines 793--793
+Underfull \hbox (badness 3291) in paragraph at lines 670--670
 []|\T1/lmr/m/n/12 (+10) listEmpenhos (op-ci-o-
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 771--795
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
+[]|\T1/lmr/m/n/12 (+10) listContratos (op-ci-o-
+ []
+
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 642--674
  [] [] [] [] 
  []
 
-[25 <./images/json_contrato_v2.png (PNG copy)>]
-Underfull \hbox (badness 4001) in paragraph at lines 809--810
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 677--685
+ [] [] [] [] 
+ []
+
+[23]
+Overfull \hbox (21.79128pt too wide) in alignment at lines 689--695
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 708--709
 []|\T1/lmr/m/n/12 (+10) Unidade de me-dida do item
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 799--815
+Overfull \hbox (1.43538pt too wide) in paragraph at lines 710--710
+[]|\T1/lmr/m/n/12 (-10) valorUnitarioEstimado| 
+ []
+
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 698--716
  [] [] [] [] 
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 818--824
+Overfull \hbox (21.79128pt too wide) in alignment at lines 719--731
  [] [] [] [] 
  []
 
-[26] [27
+[24]
+Overfull \hbox (21.79128pt too wide) in alignment at lines 735--743
+ [] [] [] [] 
+ []
 
-] [28]
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 746--766
+ [] [] [] [] 
+ []
+
+<images/json_contrato_v2.png, id=412, 181.42781pt x 272.51813pt>
+File: images/json_contrato_v2.png Graphic file (type png)
+<use images/json_contrato_v2.png>
+Package pdftex.def Info: images/json_contrato_v2.png  used on input line 770.
+(pdftex.def)             Requested size: 181.99722pt x 273.37822pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25]
+Underfull \hbox (badness 3291) in paragraph at lines 801--801
+[]|\T1/lmr/m/n/12 (+10) listEmpenhos (op-ci-o-
+ []
+
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 779--803
+ [] [] [] [] 
+ []
+
+[26 <./images/json_contrato_v2.png (PNG copy)>]
+Underfull \hbox (badness 4001) in paragraph at lines 817--818
+[]|\T1/lmr/m/n/12 (+10) Unidade de me-dida do item
+ []
+
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 807--823
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (21.79128pt too wide) in alignment at lines 826--832
+ [] [] [] [] 
+ []
+
+[27] [28
+
+]
+Underfull \hbox (badness 1132) in paragraph at lines 866--866
+[]|\T1/lmr/m/n/12 (+10) Licitações do Es-tado de
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 867--867
+[]|\T1/lmr/m/n/12 (+10) Modelagem con-cei-tual com
+ []
+
+[29]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 891.
+(hyperref)                removing `\glsxtrshort' on input line 899.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 891.
+(hyperref)                removing `\glsxtrshort' on input line 899.
 
-[29
+[30
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 903.
+(hyperref)                removing `\glsxtrshort' on input line 911.
 
-[30]
-<images/modelo_logico_tcc_v4.png, id=560, 1557.82pt x 942.52126pt>
+[31]
+<images/modelo_logico_tcc_v4.png, id=561, 1557.82pt x 942.52126pt>
 File: images/modelo_logico_tcc_v4.png Graphic file (type png)
 <use images/modelo_logico_tcc_v4.png>
-Package pdftex.def Info: images/modelo_logico_tcc_v4.png  used on input line 92
-9.
+Package pdftex.def Info: images/modelo_logico_tcc_v4.png  used on input line 93
+7.
 (pdftex.def)             Requested size: 455.0pt x 399.25032pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 938.
+(hyperref)                removing `\glsxtrshort' on input line 946.
 
-[31 <./images/modelo_logico_tcc_v4.png>] [32]
+[32 <./images/modelo_logico_tcc_v4.png>] [33]
 <images/boxplot_licitacoes_2024.png, id=577, 1003.75pt x 602.25pt>
 File: images/boxplot_licitacoes_2024.png Graphic file (type png)
 <use images/boxplot_licitacoes_2024.png>
 Package pdftex.def Info: images/boxplot_licitacoes_2024.png  used on input line
- 955.
+ 963.
 (pdftex.def)             Requested size: 501.87378pt x 301.12425pt.
 
-Overfull \hbox (46.87378pt too wide) in paragraph at lines 955--956
+Overfull \hbox (46.87378pt too wide) in paragraph at lines 963--964
  [] 
  []
 
-[33
+[34
 
- <./images/boxplot_licitacoes_2024.png>] [34
+ <./images/boxplot_licitacoes_2024.png>] [35
 
-] [35
+] [36
 
 ] 
 AED: lastpage setting LastPage
-[36]
+[37]
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1751,13 +1763,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35280 strings out of 478287
- 640557 string characters out of 5849290
- 1595195 words of memory out of 5000000
- 52676 multiletter control sequences out of 15000+600000
- 530118 words of font info for 122 fonts, out of 8000000 for 9000
+ 35286 strings out of 478287
+ 640780 string characters out of 5849290
+ 1595210 words of memory out of 5000000
+ 52682 multiletter control sequences out of 15000+600000
+ 529989 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,17n,118p,1738b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 106i,17n,118p,1730b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
@@ -1766,10 +1778,10 @@ fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (37 pages, 691468 bytes).
+Output written on main.pdf (38 pages, 710743 bytes).
 PDF statistics:
  797 PDF objects out of 1000 (max. 8388607)
- 711 compressed objects within 8 object streams
- 159 named destinations out of 1000 (max. 500000)
- 34121 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 707 compressed objects within 8 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 34126 words of extra memory for PDF output out of 35830 (max. 10000000)
 

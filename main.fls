@@ -1513,6 +1513,11 @@ INPUT ./images/airflow-components.png
 INPUT images/airflow-components.png
 INPUT ./images/airflow-components.png
 INPUT ./images/airflow-components.png
+INPUT ./images/tutorial_dag-graph (2).png
+INPUT ./images/tutorial_dag-graph (2).png
+INPUT images/tutorial_dag-graph (2).png
+INPUT ./images/tutorial_dag-graph (2).png
+INPUT ./images/tutorial_dag-graph (2).png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
