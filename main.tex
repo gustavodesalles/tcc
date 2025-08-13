@@ -953,9 +953,65 @@ Esta seção apresenta o planejamento e implementação do processo de extraçã
 \label{cap:Resultados}
 % ----------------------------------------------------------
 
-Nesta seção, apresenta-se os resultados obtidos a partir da análise exploratória. Foram utilizados os registros de licitações e contratos entre os anos de 2014 e 2024 para gerar gráficos e identificar irregularidades.
+Nesta seção, apresentam-se os resultados obtidos a partir da análise exploratória dos dados de licitações e contratos administrativos da \glsxtrlong{PMF}. O conjunto de dados contempla registros entre 2014 e 2024, abrangendo informações como modalidades de licitação, valores contratados, datas de homologação, prazos de vigência e fornecedores participantes.
 
-Em geral, nota-se uma grande quantidade de registros de licitações cuja unidade gestora é a \glsxtrlong{PMF} (código 1) ou o Instituto de Previdência Social dos Servidores Públicos (código 22) que não possuem valores estimados informados. Isto resulta em um \textit{boxplot} com muitos \textit{outliers}, como exemplificado pela \autoref{fig:boxplot_licitacoes}.
+A análise exploratória teve como objetivo compreender o comportamento geral dos dados, identificar padrões e tendências ao longo do período, bem como levantar indícios de possíveis irregularidades ou inconsistências cadastrais. Para isso, foram elaborados gráficos e tabelas que sintetizam os aspectos mais relevantes.
+
+Para complementar a análise, a Tabela \ref{tab:modalidades-licitacoes} apresenta um resumo das modalidades de licitações registradas entre 2014 e 2024, considerando o valor total movimentado, a quantidade de processos licitatórios, o número de itens licitados e a quantidade de textos descritivos associados. Observa-se que as modalidades \texttt{Pregão Eletrônico} e \texttt{Dispensa} concentram os maiores valores totais, superando a marca de R\$ 15 bilhões cada. Modalidades tradicionais como \texttt{Pregão Presencial} e \texttt{Concorrência} também apresentam participação relevante, enquanto modalidades menos frequentes, como \texttt{Concurso} e \texttt{Leilão}, apresentam volumes reduzidos. Em particular, nota-se que há 1553 registros de licitações da modalidade \texttt{Pregão}, mas nenhum possui valor monetário, itens ou textos. 
+
+\begin{table}[h]
+	\caption{Resumo das modalidades de licitações entre 2014 e 2024}
+	\label{tab:modalidades-licitacoes}
+	\center
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		\textbf{Modalidade} & \textbf{Valor total (em R\$)} & \textbf{Nº licitações} & \textbf{Nº itens} & \textbf{Nº textos} \\ \hline
+		Pregão Presencial & 487201833.11 & 540 & 3688 & 885 \\ \hline
+		Inexigibilidade & 228545024.38 & 953 & 609 & 1761 \\ \hline
+		Dispensa & 15476798797.17 & 1345 & 2227 & 1598 \\ \hline
+		Concorrência & 1199136337.31 & 302 & 271 & 403 \\ \hline
+		Pregão & 0 & 1553 & 0 & 0 \\ \hline
+		Tomada de Preço & 316345806.41 & 521 & 402 & 313 \\ \hline
+		Convite & 6486691903.41 & 87 & 43 & 43 \\ \hline
+		Outros & 213741098.32 & 248 & 556 & 161 \\ \hline
+		Pregão Eletrônico & 15507026111.65 & 2063 & 31258 & 2831 \\ \hline
+		Concurso & 1516107.35 & 1 & 304 & 1 \\ \hline
+		Credenciamento & 29404786.46 & 29 & 154 & 64 \\ \hline
+		Leilão & 49320025.48 & 3 & 162 & 55 \\ \hline
+	\end{tabular}
+	\fonte{Elaborada pelo autor.}
+\end{table}
+
+A Tabela \ref{tab:modalidades-contratos} relaciona as modalidades de licitações ao número de contratos administrativos formalizados e a quantidade de empenhos vinculados aos processos licitatórios do mesmo período. Devido aos \textit{endpoints} diferentes utilizados para obter os registros dos contratos e empenhos, houve uma quantidade menor de registros retornados em comparação com a consulta da \glsxtrshort{API} pública.
+
+Nota-se a predominância do \texttt{Pregão Eletrônico}, que representa mais de 4 mil contratos e quase 10 mil empenhos, reforçando sua relevância no processo de compras públicas. Modalidades como \texttt{Inexigibilidade} e \texttt{Dispensa} também aparecem com destaque, especialmente no volume de empenhos, sugerindo uso recorrente para aquisições de natureza específica ou emergencial. A modalidade \texttt{Leilão}, apesar de conter somente três licitações, representa 118 contratos, enquanto \texttt{Pregão} e \texttt{Concurso} não possuem nenhum contrato ou empenho.
+
+\begin{table}[h]
+	\caption{Resumo das modalidades de contratos entre 2014 e 2024}
+	\label{tab:modalidades-contratos}
+	\center
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Modalidade} & \textbf{Nº contratos} & \textbf{Nº empenhos} \\ \hline
+		Pregão Presencial & 396 & 589 \\ \hline
+		Inexigibilidade & 492 & 846 \\ \hline
+		Dispensa & 797 & 1944 \\ \hline
+		Concorrência & 168 & 1949 \\ \hline
+		Pregão & 0 & 0 \\ \hline
+		Tomada de Preço & 226 & 162 \\ \hline
+		Convite & 36 & 0 \\ \hline
+		Outros & 378 & 450 \\ \hline
+		Pregão Eletrônico & 4220 & 9924 \\ \hline
+		Concurso & 0 & 0 \\ \hline
+		Credenciamento & 0 & 223 \\ \hline
+		Leilão & 118 & 0 \\ \hline
+	\end{tabular}
+	\fonte{Elaborada pelo autor.}
+\end{table}
+
+Esses dados quantitativos fornecem uma visão inicial da distribuição das modalidades ao longo do período analisado, permitindo identificar aquelas que concentram maior movimentação financeira e operacional. Na sequência, são apresentados gráficos que exploram visualmente essas tendências e outros aspectos relevantes das licitações e contratos.
+
+\section*{Distribuição de valores estimados de licitações por unidade gestora}
 
 \begin{figure}[h]
 	\begin{center}
@@ -965,9 +1021,43 @@ Em geral, nota-se uma grande quantidade de registros de licitações cuja unidad
 	\end{center}
 \end{figure}
 
+Em geral, nota-se uma grande quantidade de registros de licitações cuja unidade gestora é a \glsxtrlong{PMF} (código 1) ou o Instituto de Previdência Social dos Servidores Públicos (código 22) que não possuem valores estimados informados. Isto resulta em um \textit{boxplot} com muitos \textit{outliers}, como exemplificado pela \autoref{fig:boxplot_licitacoes}.
+
 Em relação aos contratos, verifica-se uma maior diversidade de unidades gestoras envolvidas, quando comparada às licitações. Essa diferença ocorre mesmo considerando que uma licitação pode estar associada a múltiplas unidades gestoras, enquanto um contrato está vinculado a apenas uma. Além disso, constatou-se uma quantidade significativamente menor de contratos sem o valor total informado, o que denota maior completude dos dados nessa categoria.
 
 Entre todas as licitações analisadas, apenas quatro registros não apresentam unidade gestora informada, sendo todos referentes ao ano de 2024. No caso dos contratos, todos os registros contêm a informação da unidade gestora responsável.
+
+\section*{Quantidade anual de licitações e contratos}
+
+\begin{figure}[h]
+	\begin{center}
+		\caption{\label{fig:quantidade_licitacoes}Quantidade total de licitações e contratos entre 2014 e 2024.}
+		\includegraphics[scale=0.41]{images/quantidade_anual.png} %scale=0.32
+		\fonte{Elaborada pelo autor.}
+	\end{center}
+\end{figure}
+
+A \autoref{fig:quantidade_licitacoes} compara a quantidade anual de licitações e contratos registrados entre 2014 e 2024. Observa-se que, na maior parte dos anos, o número de contratos supera significativamente o número de licitações, indicando que nem todas as licitações correspondem a um único contrato ou que há contratos decorrentes de processos anteriores.
+
+De 2014 para 2015, há um crescimento tanto nas licitações quanto nos contratos, seguido de quedas expressivas em ambos os indicadores em 2016 e 2017. Considerando o fato de 2016 ter sido um ano de eleição municipal, esta redução está possivelmente relacionada a alterações normativas, restrições orçamentárias ou mudanças nos procedimentos administrativos.
+
+O ano de 2020 apresenta um comportamento atípico: o número de contratos foi mais que o dobro do número de licitações. Isto pode indicar a formalização de múltiplos contratos derivados de um número relativamente reduzido de processos licitatórios, possivelmente como resposta a demandas emergenciais, como as decorrentes da pandemia de COVID-19.
+
+Por fim, o ano de 2024 exibe a menor diferença absoluta entre as quantidades de licitações e contratos em todo o período analisado. Esse alinhamento pode refletir maior proporcionalidade entre a quantidade de processos licitatórios e a execução contratual, sugerindo ajustes na gestão ou no planejamento das aquisições públicas.
+
+Observa-se que houve uma queda do número de registros no ano de 2017 em comparação com os anos anteriores. O ano de 2020 apresenta uma grande discrepância entre os números, sendo a quantidade de contratos maior que o dobro da quantidade de licitações. Em contrapartida, 2024 possui a menor diferença entre licitações e contratos.
+
+\begin{figure}[h]
+	\begin{center}
+		\caption{\label{fig:variacao_licitacoes}Variação anual de valores totais de licitações e contratos entre 2014 e 2024.}
+		\includegraphics[scale=0.41]{images/variacao_anual_valores.png} %scale=0.32
+		\fonte{Elaborada pelo autor.}
+	\end{center}
+\end{figure}
+
+A \autoref{fig:variacao_licitacoes} mostra a variação anual dos valores totais da licitações e contratos, expressos em notação logarítmica.
+
+No período de 2014 a 2017, o valor total dos contratos é significativamente maior que o valor total das licitações. O inverso ocorre em 2018, com um aumento do valor de licitações, e após um equilíbrio em 2019, a situação se repete em 2020 antes de se equilibrar novamente.
 
 % ---
 % 4 - Conclusão
