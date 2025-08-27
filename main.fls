@@ -1570,6 +1570,7 @@ INPUT ./images/variacao_anual_valores.png
 INPUT images/variacao_anual_valores.png
 INPUT ./images/variacao_anual_valores.png
 INPUT ./images/variacao_anual_valores.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
 OUTPUT main.lof
 OUTPUT main.lot
 OUTPUT main.toc

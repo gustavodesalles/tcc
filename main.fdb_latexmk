@@ -1,16 +1,16 @@
 # Fdb version 3
-["biber main"] 1754420285 "main.bcf" "main.bbl" "main" 1755048494
+["biber main"] 1754420285 "main.bcf" "main.bbl" "main" 1756329638
   "aftertext/references.bib" 1751415832 7757 c6f9c27014f093a85d8a50becec9edc9 ""
-  "main.bcf" 1755048494 114883 0080d7c40b50b741680c815e2ba08eb2 "pdflatex"
+  "main.bcf" 1756329638 114883 0080d7c40b50b741680c815e2ba08eb2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 1753141181 "main.idx" "main.ind" "main" 1755048494
-  "main.idx" 1755048492 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1753141181 "main.idx" "main.ind" "main" 1756329638
+  "main.idx" 1756329637 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1755048492 "main.tex" "main.pdf" "main" 1755048494
+["pdflatex"] 1756329636 "main.tex" "main.pdf" "main" 1756329638
   "/etc/texmf/web2c/texmf.cnf" 1751475079 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -188,6 +188,7 @@
   "/usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm" 1254938640 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "/usr/share/texmf/fonts/tfm/public/lm/rm-lmr8.tfm" 1254938640 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
   "/usr/share/texmf/fonts/tfm/public/lm/ts1-lmbx12.tfm" 1254938640 1600 fec060bf714b3c52e53c0e0df6ae170d ""
+  "/usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm" 1254938640 1596 1d4548788e389ded56d0b01b28377882 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb" 1254938640 116908 1fca96723793882c2e0160350c192fc8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr10.pfb" 1254938640 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb" 1254938640 113634 f99c44d58bae0863375faf0e1d74d612 ""
@@ -220,14 +221,14 @@
   "images/quantidade_anual.png" 1754875865 59716 1a9cb1cc0a5c496578693a6749a5ad12 ""
   "images/tutorial_dag-graph (2).png" 1753403221 44317 f4d1a57c1d9b6704e26a26a574128bed ""
   "images/variacao_anual_valores.png" 1754875796 65908 5eeae651d519e1b95eb43f8f2925bf35 ""
-  "main.aux" 1755048494 36288 9786f560ca05f98a7d1acc55bfb8e9d2 "pdflatex"
+  "main.aux" 1756329638 36306 1a9fcda65629ced1efbeda50f1a39e3e "pdflatex"
   "main.bbl" 1754420285 24131 0f38207a4b76c168d7f354545ef91863 "biber main"
   "main.ind" 1753141181 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1755048494 1141 09ab9d4586ecfee53cf6a56c718e787c "pdflatex"
-  "main.lot" 1755048494 424 9ce70cb62186e8b64e9d1da0a0a32994 "pdflatex"
-  "main.run.xml" 1755048494 2520 678fcd486eb36ae963e16136b3fbd359 "pdflatex"
-  "main.tex" 1755048490 72902 e54b2c12805015f0f53330da121d1737 ""
-  "main.toc" 1755048494 3477 9148ec1a82537e6bf46cefd8c2d97707 "pdflatex"
+  "main.lof" 1756329638 1141 09ab9d4586ecfee53cf6a56c718e787c "pdflatex"
+  "main.lot" 1756329638 424 9ce70cb62186e8b64e9d1da0a0a32994 "pdflatex"
+  "main.run.xml" 1756329638 2520 678fcd486eb36ae963e16136b3fbd359 "pdflatex"
+  "main.tex" 1756329634 74910 61c7a272127cd7957dec840933218ffb ""
+  "main.toc" 1756329638 3477 62b37e7cf7033e5ee43ca9b9d648536f "pdflatex"
   "setup/ufscthesisA4-alf.sty" 1751415832 11236 9189aa604fb41884c473dd6ad65144f1 ""
   "setup/vertical_sigla_fundo_claro.pdf" 1751415832 51586 17e6b34529482ef5c908bfc04c901503 ""
   (generated)

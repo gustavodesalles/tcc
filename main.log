@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  12 AUG 2025 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  27 AUG 2025 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1739,10 +1739,10 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: images/boxplot_licitacoes_2024.png Graphic file (type png)
 <use images/boxplot_licitacoes_2024.png>
 Package pdftex.def Info: images/boxplot_licitacoes_2024.png  used on input line
- 1019.
+ 1021.
 (pdftex.def)             Requested size: 501.87378pt x 301.12425pt.
 
-Overfull \hbox (46.87378pt too wide) in paragraph at lines 1019--1020
+Overfull \hbox (46.87378pt too wide) in paragraph at lines 1021--1022
  [] 
  []
 
@@ -1753,10 +1753,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/quantidade_anual.png, id=601, 1204.5pt x 602.25pt>
 File: images/quantidade_anual.png Graphic file (type png)
 <use images/quantidade_anual.png>
-Package pdftex.def Info: images/quantidade_anual.png  used on input line 1035.
-(pdftex.def)             Requested size: 493.8482pt x 246.92409pt.
+Package pdftex.def Info: images/quantidade_anual.png  used on input line 1038.
+(pdftex.def)             Requested size: 493.8482pt x 223.59268pt.
 
-Overfull \hbox (38.8482pt too wide) in paragraph at lines 1035--1036
+Overfull \hbox (38.8482pt too wide) in paragraph at lines 1038--1039
  [] 
  []
 
@@ -1764,14 +1764,14 @@ Overfull \hbox (38.8482pt too wide) in paragraph at lines 1035--1036
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [36 <./images/boxplot_licitacoes_2024.png>]
-<images/variacao_anual_valores.png, id=609, 1204.5pt x 602.25pt>
+<images/variacao_anual_valores.png, id=610, 1204.5pt x 602.25pt>
 File: images/variacao_anual_valores.png Graphic file (type png)
 <use images/variacao_anual_valores.png>
 Package pdftex.def Info: images/variacao_anual_valores.png  used on input line 
-1053.
-(pdftex.def)             Requested size: 493.8482pt x 246.92409pt.
+1058.
+(pdftex.def)             Requested size: 493.8482pt x 223.59268pt.
 
-Overfull \hbox (38.8482pt too wide) in paragraph at lines 1053--1054
+Overfull \hbox (38.8482pt too wide) in paragraph at lines 1058--1059
  [] 
  []
 
@@ -1801,11 +1801,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35351 strings out of 478287
- 642358 string characters out of 5849290
- 1595900 words of memory out of 5000000
- 52729 multiletter control sequences out of 15000+600000
- 530515 words of font info for 124 fonts, out of 8000000 for 9000
+ 35360 strings out of 478287
+ 642474 string characters out of 5849290
+ 1595918 words of memory out of 5000000
+ 52731 multiletter control sequences out of 15000+600000
+ 531112 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,17n,118p,1730b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
@@ -1817,10 +1817,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmtt12.pfb>
-Output written on main.pdf (42 pages, 809327 bytes).
+Output written on main.pdf (42 pages, 812347 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 738 compressed objects within 8 object streams
+ 844 PDF objects out of 1000 (max. 8388607)
+ 742 compressed objects within 8 object streams
  168 named destinations out of 1000 (max. 500000)
- 36184 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 38244 words of extra memory for PDF output out of 42996 (max. 10000000)
 

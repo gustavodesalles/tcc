@@ -36,4 +36,4 @@
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{39}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{REFERÊNCIAS}{40}{section*.29}%
+\contentsline {chapter}{REFERÊNCIAS}{40}{section*.30}%

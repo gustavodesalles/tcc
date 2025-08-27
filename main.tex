@@ -981,6 +981,7 @@ Para complementar a análise, a Tabela \ref{tab:modalidades-licitacoes} apresent
 	\end{tabular}
 	\fonte{Elaborada pelo autor.}
 \end{table}
+% ordenar decrescente valores; números alinhados à direita
 
 A Tabela \ref{tab:modalidades-contratos} relaciona as modalidades de licitações ao número de contratos administrativos formalizados e a quantidade de empenhos vinculados aos processos licitatórios do mesmo período. Devido aos \textit{endpoints} diferentes utilizados para obter os registros dos contratos e empenhos, houve uma quantidade menor de registros retornados em comparação com a consulta da \glsxtrshort{API} pública.
 
@@ -1008,6 +1009,7 @@ Nota-se a predominância do \texttt{Pregão Eletrônico}, que representa mais de
 	\end{tabular}
 	\fonte{Elaborada pelo autor.}
 \end{table}
+% colocar valores totais de contratos e empenhos, e números de fornecedores
 
 Esses dados quantitativos fornecem uma visão inicial da distribuição das modalidades ao longo do período analisado, permitindo identificar aquelas que concentram maior movimentação financeira e operacional. Na sequência, são apresentados gráficos que exploram visualmente essas tendências e outros aspectos relevantes das licitações e contratos.
 
@@ -1021,6 +1023,7 @@ Esses dados quantitativos fornecem uma visão inicial da distribuição das moda
 	\end{center}
 \end{figure}
 
+%explicar por que foram escolhidas unidades 1 e 22
 Em geral, nota-se uma grande quantidade de registros de licitações cuja unidade gestora é a \glsxtrlong{PMF} (código 1) ou o Instituto de Previdência Social dos Servidores Públicos (código 22) que não possuem valores estimados informados. Isto resulta em um \textit{boxplot} com muitos \textit{outliers}, como exemplificado pela \autoref{fig:boxplot_licitacoes}.
 
 Em relação aos contratos, verifica-se uma maior diversidade de unidades gestoras envolvidas, quando comparada às licitações. Essa diferença ocorre mesmo considerando que uma licitação pode estar associada a múltiplas unidades gestoras, enquanto um contrato está vinculado a apenas uma. Além disso, constatou-se uma quantidade significativamente menor de contratos sem o valor total informado, o que denota maior completude dos dados nessa categoria.
@@ -1032,7 +1035,7 @@ Entre todas as licitações analisadas, apenas quatro registros não apresentam 
 \begin{figure}[h]
 	\begin{center}
 		\caption{\label{fig:quantidade_licitacoes}Quantidade total de licitações e contratos entre 2014 e 2024.}
-		\includegraphics[scale=0.41]{images/quantidade_anual.png} %scale=0.32
+		\includegraphics[scale=0.41,trim={0 0 0 2cm},clip]{images/quantidade_anual.png} %scale=0.32
 		\fonte{Elaborada pelo autor.}
 	\end{center}
 \end{figure}
@@ -1047,17 +1050,25 @@ Por fim, o ano de 2024 exibe a menor diferença absoluta entre as quantidades de
 
 Observa-se que houve uma queda do número de registros no ano de 2017 em comparação com os anos anteriores. O ano de 2020 apresenta uma grande discrepância entre os números, sendo a quantidade de contratos maior que o dobro da quantidade de licitações. Em contrapartida, 2024 possui a menor diferença entre licitações e contratos.
 
+\section*{Variação anual de valores totais de licitações e contratos}
+
 \begin{figure}[h]
 	\begin{center}
 		\caption{\label{fig:variacao_licitacoes}Variação anual de valores totais de licitações e contratos entre 2014 e 2024.}
-		\includegraphics[scale=0.41]{images/variacao_anual_valores.png} %scale=0.32
+		\includegraphics[scale=0.41,trim={0 0 0 2cm},clip]{images/variacao_anual_valores.png} %scale=0.32
 		\fonte{Elaborada pelo autor.}
 	\end{center}
 \end{figure}
 
-A \autoref{fig:variacao_licitacoes} mostra a variação anual dos valores totais da licitações e contratos, expressos em notação logarítmica.
+A \autoref{fig:variacao_licitacoes} apresenta a variação anual dos valores totais de licitações e contratos registrados entre 2014 e 2024, representados em escala logarítmica para melhor visualização das discrepâncias de ordem de grandeza.
 
-No período de 2014 a 2017, o valor total dos contratos é significativamente maior que o valor total das licitações. O inverso ocorre em 2018, com um aumento do valor de licitações, e após um equilíbrio em 2019, a situação se repete em 2020 antes de se equilibrar novamente.
+No período inicial, de 2014 a 2017, observa-se que os valores de contratos se mantêm consistentemente superiores aos valores de licitações. Esse comportamento pode ser explicado pelo fato de que muitos contratos são firmados a partir de licitações de anos anteriores ou por contratações diretas, previstas na legislação, que não necessariamente guardam proporcionalidade imediata com os valores licitados no mesmo exercício.
+
+Em 2018, há um crescimento abrupto nos valores de licitações, ultrapassando em larga escala os valores de contratos. Essa discrepância pode estar associada a grandes editais lançados naquele ano, com expressiva previsão orçamentária, mas que não necessariamente se converteram no mesmo volume de contratos firmados de imediato.
+
+Após um aparente equilíbrio no ano de 2019 entre os valores de licitações e contratos, em 2020 observa-se novamente uma disparidade, com os valores licitados alcançando seu ponto mais alto em toda a série, superando em várias ordens de magnitude os valores contratados. Esse comportamento pode estar relacionado a processos emergenciais desencadeados pela pandemia de COVID-19, em que foram anunciados grandes volumes de recursos licitados, mas cuja execução contratual pode ter ocorrido em montantes menores ou em fases posteriores.
+
+A partir de 2021, há uma redução gradual da diferença entre licitações e contratos, atingindo um equilíbrio entre os valores de 2022 em diante. De 2023 até 2024, nota-se uma queda em ambos os índices, ainda que um pouco mais acentuada para os contratos. Essa retração pode refletir tanto um cenário de restrições orçamentárias quanto o processo de adaptação administrativa à plena vigência da nova Lei de Licitações e Contratos (Lei nº 14.133/2021), que se tornou a única lei vigente para licitações e contratações públicas em 2024.
 
 % ---
 % 4 - Conclusão
