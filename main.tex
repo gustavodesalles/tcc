@@ -939,7 +939,7 @@ Nesta seção, é apresentado um esquema de dados modelado com base na \glsxtrsh
 \end{center}
 \end{figure}
 
-Além das tabelas definidas no dicionário de dados, foram criadas duas tabelas para representar relações do tipo n:m (muitos-para-muitos); a tabela \texttt{Item\_Fornecedor} modela a relação entre as tabelas \texttt{Item} e \texttt{Fornecedor}, considerando que um item de licitação ou contrato pode possuir mais de um fornecedor, e a tabela \texttt{Licitacao\_Unidade\_Gestora} modela a relação entre \texttt{Licitacao} e \texttt{Unidade\_Gestora}, pois uma licitação pode ser vinculada a mais de uma unidade gestora.
+Além das tabelas definidas no dicionário de dados, foi criada uma tabela para representar relações do tipo n:m (muitos-para-muitos); a tabela \texttt{Licitacao\_Unidade\_Gestora} modela a relação entre \texttt{Licitacao} e \texttt{Unidade\_Gestora}, pois uma licitação pode ser vinculada a mais de uma unidade gestora.
 
 
 % ----------------------------------------------------------
@@ -1069,6 +1069,26 @@ Em 2018, há um crescimento abrupto nos valores de licitações, ultrapassando e
 Após um aparente equilíbrio no ano de 2019 entre os valores de licitações e contratos, em 2020 observa-se novamente uma disparidade, com os valores licitados alcançando seu ponto mais alto em toda a série, superando em várias ordens de magnitude os valores contratados. Esse comportamento pode estar relacionado a processos emergenciais desencadeados pela pandemia de COVID-19, em que foram anunciados grandes volumes de recursos licitados, mas cuja execução contratual pode ter ocorrido em montantes menores ou em fases posteriores.
 
 A partir de 2021, há uma redução gradual da diferença entre licitações e contratos, atingindo um equilíbrio entre os valores de 2022 em diante. De 2023 até 2024, nota-se uma queda em ambos os índices, ainda que um pouco mais acentuada para os contratos. Essa retração pode refletir tanto um cenário de restrições orçamentárias quanto o processo de adaptação administrativa à plena vigência da nova Lei de Licitações e Contratos (Lei nº 14.133/2021), que se tornou a única lei vigente para licitações e contratações públicas em 2024.
+
+\section*{Principais fornecedores de contratos}
+
+\begin{figure}[h]
+	\begin{center}
+		\caption{\label{fig:fornecedores}Valores totais gastos com fornecedores de contratos entre 2014 e 2024.}
+		\includegraphics[scale=0.41,clip]{images/principais_fornecedores.png} %scale=0.32
+		\fonte{Elaborada pelo autor.}
+	\end{center}
+\end{figure}
+
+\section*{Comparação entre valores de contratos e empenhos}
+
+\begin{figure}[h]
+	\begin{center}
+		\caption{\label{fig:contratos_repetidos}Exemplo de múltiplos registros de contratos com números idênticos.}
+		\includegraphics{images/contratos_numeros_repetidos.png} %scale=0.32
+		\fonte{Elaborada pelo autor.}
+	\end{center}
+\end{figure}
 
 % ---
 % 4 - Conclusão

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  27 AUG 2025 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  31 AUG 2025 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1499,14 +1499,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [16
 
 ]
-<images/airflow-components.png, id=300, 779.91376pt x 579.66562pt>
+<images/airflow-components.png, id=304, 779.91376pt x 579.66562pt>
 File: images/airflow-components.png Graphic file (type png)
 <use images/airflow-components.png>
 Package pdftex.def Info: images/airflow-components.png  used on input line 530.
 
 (pdftex.def)             Requested size: 428.9539pt x 318.81708pt.
 [17 <./images/airflow-components.png (PNG copy)>]
-<images/tutorial_dag-graph (2).png, id=314, 1228.59pt x 835.12pt>
+<images/tutorial_dag-graph (2).png, id=318, 1228.59pt x 835.12pt>
 File: images/tutorial_dag-graph (2).png Graphic file (type png)
 <use images/tutorial_dag-graph (2).png>
 Package pdftex.def Info: images/tutorial_dag-graph (2).png  used on input line 
@@ -1553,7 +1553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 591--591
  []
 
 [20]
-<images/json_licitacao_v2.png, id=380, 185.94469pt x 319.1925pt>
+<images/json_licitacao_v2.png, id=384, 185.94469pt x 319.1925pt>
 File: images/json_licitacao_v2.png Graphic file (type png)
 <use images/json_licitacao_v2.png>
 Package pdftex.def Info: images/json_licitacao_v2.png  used on input line 610.
@@ -1655,7 +1655,7 @@ Overfull \hbox (21.79128pt too wide) in alignment at lines 746--766
  [] [] [] [] 
  []
 
-<images/json_contrato_v2.png, id=421, 181.42781pt x 272.51813pt>
+<images/json_contrato_v2.png, id=425, 181.42781pt x 272.51813pt>
 File: images/json_contrato_v2.png Graphic file (type png)
 <use images/json_contrato_v2.png>
 Package pdftex.def Info: images/json_contrato_v2.png  used on input line 770.
@@ -1717,7 +1717,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glsxtrshort' on input line 911.
 
 [31]
-<images/modelo_logico_tcc_v4.png, id=570, 1557.82pt x 942.52126pt>
+<images/modelo_logico_tcc_v4.png, id=574, 1557.82pt x 942.52126pt>
 File: images/modelo_logico_tcc_v4.png Graphic file (type png)
 <use images/modelo_logico_tcc_v4.png>
 Package pdftex.def Info: images/modelo_logico_tcc_v4.png  used on input line 93
@@ -1735,7 +1735,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [34
 
 ]
-<images/boxplot_licitacoes_2024.png, id=593, 1003.75pt x 602.25pt>
+<images/boxplot_licitacoes_2024.png, id=597, 1003.75pt x 602.25pt>
 File: images/boxplot_licitacoes_2024.png Graphic file (type png)
 <use images/boxplot_licitacoes_2024.png>
 Package pdftex.def Info: images/boxplot_licitacoes_2024.png  used on input line
@@ -1750,7 +1750,7 @@ Overfull \hbox (46.87378pt too wide) in paragraph at lines 1021--1022
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [35]
-<images/quantidade_anual.png, id=601, 1204.5pt x 602.25pt>
+<images/quantidade_anual.png, id=605, 1204.5pt x 602.25pt>
 File: images/quantidade_anual.png Graphic file (type png)
 <use images/quantidade_anual.png>
 Package pdftex.def Info: images/quantidade_anual.png  used on input line 1038.
@@ -1764,7 +1764,7 @@ Overfull \hbox (38.8482pt too wide) in paragraph at lines 1038--1039
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [36 <./images/boxplot_licitacoes_2024.png>]
-<images/variacao_anual_valores.png, id=610, 1204.5pt x 602.25pt>
+<images/variacao_anual_valores.png, id=614, 1204.5pt x 602.25pt>
 File: images/variacao_anual_valores.png Graphic file (type png)
 <use images/variacao_anual_valores.png>
 Package pdftex.def Info: images/variacao_anual_valores.png  used on input line 
@@ -1778,14 +1778,35 @@ Overfull \hbox (38.8482pt too wide) in paragraph at lines 1058--1059
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37 <./images/quantidade_anual.png>] [38 <./images/variacao_anual_valores.png>]
-[39
+[37 <./images/quantidade_anual.png>]
+<images/principais_fornecedores.png, id=623, 1204.5pt x 602.25pt>
+File: images/principais_fornecedores.png Graphic file (type png)
+<use images/principais_fornecedores.png>
+Package pdftex.def Info: images/principais_fornecedores.png  used on input line
+ 1078.
+(pdftex.def)             Requested size: 493.8482pt x 246.92409pt.
 
-] [40
+Overfull \hbox (38.8482pt too wide) in paragraph at lines 1078--1079
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/contratos_numeros_repetidos.png, id=625, 263.48438pt x 216.81pt>
+File: images/contratos_numeros_repetidos.png Graphic file (type png)
+<use images/contratos_numeros_repetidos.png>
+Package pdftex.def Info: images/contratos_numeros_repetidos.png  used on input 
+line 1088.
+(pdftex.def)             Requested size: 263.48372pt x 216.80946pt.
+[38 <./images/variacao_anual_valores.png>] [39 <./images/principais_fornecedore
+s.png> <./images/contratos_numeros_repetidos.png (PNG copy)>] [40
+
+] [41
 
 ] 
 AED: lastpage setting LastPage
-[41]
+[42]
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1801,10 +1822,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35360 strings out of 478287
- 642474 string characters out of 5849290
- 1595918 words of memory out of 5000000
- 52731 multiletter control sequences out of 15000+600000
+ 35379 strings out of 478287
+ 643097 string characters out of 5849290
+ 1597203 words of memory out of 5000000
+ 52745 multiletter control sequences out of 15000+600000
  531112 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,17n,118p,1730b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1817,10 +1838,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmtt12.pfb>
-Output written on main.pdf (42 pages, 812347 bytes).
+Output written on main.pdf (43 pages, 871799 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 742 compressed objects within 8 object streams
- 168 named destinations out of 1000 (max. 500000)
- 38244 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 752 compressed objects within 8 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 38260 words of extra memory for PDF output out of 42996 (max. 10000000)
 

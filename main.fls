@@ -1571,6 +1571,16 @@ INPUT images/variacao_anual_valores.png
 INPUT ./images/variacao_anual_valores.png
 INPUT ./images/variacao_anual_valores.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT ./images/principais_fornecedores.png
+INPUT ./images/principais_fornecedores.png
+INPUT images/principais_fornecedores.png
+INPUT ./images/principais_fornecedores.png
+INPUT ./images/principais_fornecedores.png
+INPUT ./images/contratos_numeros_repetidos.png
+INPUT ./images/contratos_numeros_repetidos.png
+INPUT images/contratos_numeros_repetidos.png
+INPUT ./images/contratos_numeros_repetidos.png
+INPUT ./images/contratos_numeros_repetidos.png
 OUTPUT main.lof
 OUTPUT main.lot
 OUTPUT main.toc
