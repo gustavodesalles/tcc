@@ -33,7 +33,7 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{34}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{40}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{41}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{REFERÊNCIAS}{41}{section*.32}%
+\contentsline {chapter}{REFERÊNCIAS}{42}{section*.32}%
