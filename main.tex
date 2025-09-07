@@ -934,10 +934,12 @@ Nesta seção, é apresentado um esquema de dados modelado com base na \glsxtrsh
 \begin{figure}[h]
 \begin{center}
 	\caption{\label{fig:diagrama_er}Diagrama entidade-relacionamento do esquema.}
-	\includegraphics[trim={17cm 0 0 0},clip,width=\textwidth]{images/modelo_logico_tcc_v4.png} %scale=0.32
+	\includegraphics[trim={17.8cm 0 0 0},clip,width=1.1\textwidth]{images/modelo_logico_tcc_v5.png} %scale=0.32
 	\fonte{Elaborada pelo autor.}
 \end{center}
 \end{figure}
+
+Nota-se o uso de \textit{surrogate keys} em todas as tabelas que possuem atributos denominados "id\_<nome da tabela>", para facilitar a relação entre entidades e lidar com a possibilidade de uma licitação ou contrato ter sido registrado com um número irregular ou idêntico ao de outro registro no banco de dados.
 
 Além das tabelas definidas no dicionário de dados, foi criada uma tabela para representar relações do tipo n:m (muitos-para-muitos); a tabela \texttt{Licitacao\_Unidade\_Gestora} modela a relação entre \texttt{Licitacao} e \texttt{Unidade\_Gestora}, pois uma licitação pode ser vinculada a mais de uma unidade gestora.
 
@@ -1080,7 +1082,7 @@ A partir de 2021, há uma redução gradual da diferença entre licitações e c
 	\end{center}
 \end{figure}
 
-A \ref{fig:fornecedores} apresenta os dez fornecedores com maior valor financeiro total de contratos administrativos firmados com a \glsxtrlong{PMF} durante o período analisado, expressos em milhões de reais.
+A \autoref{fig:fornecedores} apresenta os dez fornecedores com maior valor financeiro total de contratos administrativos firmados com a \glsxtrlong{PMF} durante o período analisado, expressos em milhões de reais.
 
 Nota-se uma forte concentração de recursos em poucos fornecedores. Em particular, o montante da empresa Orbenk Administração e Serviços Ltda. ultrapassa o valor de R\$ 550 milhões, representando uma participação muito superior à das demais. A predominância de empresas como essa e a Ondrepsb Limpeza e Serviços Especiais Ltda. sugere que os serviços de de vigilância patrimonial e limpeza urbana constituem uma parcela significativa das despesas contratuais do município.
 
@@ -1091,6 +1093,12 @@ A análise do gráfico revela, portanto, que a maior parte dos recursos público
 
 \section*{Comparação entre valores de contratos e empenhos}
 
+Foi desenvolvido um método específico para comparar o valor registrado em cada contrato com a soma dos valores de seus respectivos empenhos, com o objetivo de verificar a consistência entre as etapas do processo de execução orçamentária, identificando eventuais divergências que poderiam comprometer a confiabilidade dos dados ou revelar problemas na gestão administrativa. Caso seja identificada a diferença, o método imprime o número do contrato, seguido do valor total informado no registro da \glsxtrshort{API} pública da \glsxtrlong{PMF} e da soma dos valores dos empenhos.
+
+Devido aos registros de contratos obtidos da \glsxtrshort{API} pública da \glsxtrlong{PMF} não possuírem dados dos empenhos, optou-se por explorar a \glsxtrshort{API} interna utilizada pelo próprio sistema, responsável por carregar os dados exibidos nas páginas. Essa fonte alternativa contém os empenhos associados a cada contrato, permitindo a realização da análise proposta.
+
+A aplicação desse método revelou uma grande quantidade de discrepâncias nos contratos firmados em 2015. Essas inconsistências podem ter diferentes origens, como erros de lançamento, mudanças nos procedimentos de registro adotados à época ou até mesmo falhas de integração entre sistemas. A identificação desse padrão específico para um ano levanta a necessidade de investigações adicionais para compreender melhor os fatores envolvidos.
+
 \begin{figure}[h]
 	\begin{center}
 		\caption{\label{fig:contratos_repetidos}Exemplo de múltiplos registros de contratos com números idênticos.}
@@ -1098,6 +1106,8 @@ A análise do gráfico revela, portanto, que a maior parte dos recursos público
 		\fonte{Elaborada pelo autor.}
 	\end{center}
 \end{figure}
+
+Outro achado importante foi a existência de contratos que compartilham o mesmo número, mas que estão associados a unidades gestoras distintas, como demonstra a \autoref{fig:contratos_repetidos}. Esse comportamento decorre da modelagem adotada para o objeto "Contrato", que, ao contrário do objeto "Licitação", pode ser vinculado a uma única unidade gestora. Como consequência, quando um contrato envolve mais de uma unidade, ele passa a ser registrado em duplicidade, gerando aparente inconsistência nos dados.
 
 % ---
 % 4 - Conclusão
