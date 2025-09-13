@@ -30,10 +30,15 @@
 \contentsline {section}{\numberline {4.2}Análise exploratória dos dados coletados em \glsxtrshort {JSON}}{31}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Esquema relacional para os dados coletados}{32}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Processo de \glsxtrshort {ETL}}{33}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Extração (\textit {extract})}{33}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Transformação (\textit {transform})}{33}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Carga (\textit {load})}{34}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Orquestração da \glsxtrshort {DAG}}{34}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Considerações}{35}{subsection.4.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{34}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{36}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{42}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclusões e trabalhos futuros}}{44}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{REFERÊNCIAS}{43}{section*.32}%
+\contentsline {chapter}{REFERÊNCIAS}{45}{section*.32}%

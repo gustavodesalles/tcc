@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  12 SEP 2025 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  13 SEP 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,25 +1161,25 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-Package hyperref Info: Link coloring ON on input line 212.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+Package hyperref Info: Link coloring ON on input line 213.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1191,10 +1191,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 212.
-LaTeX Info: Redefining \ref on input line 212.
-LaTeX Info: Redefining \pageref on input line 212.
-LaTeX Info: Redefining \nameref on input line 212.
+LaTeX Info: Redefining \nameref on input line 213.
+LaTeX Info: Redefining \ref on input line 213.
+LaTeX Info: Redefining \pageref on input line 213.
+LaTeX Info: Redefining \nameref on input line 213.
 \myptabbox=\box68
 \myptabboxwidth=\skip299
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1218,11 +1218,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 212.
-Package microtype Info: Applying patch `item' on input line 212.
-Package microtype Info: Applying patch `toc' on input line 212.
-Package microtype Info: Applying patch `eqnum' on input line 212.
-Package microtype Info: Applying patch `footnote' on input line 212.
+LaTeX Info: Redefining \microtypecontext on input line 213.
+Package microtype Info: Applying patch `item' on input line 213.
+Package microtype Info: Applying patch `toc' on input line 213.
+Package microtype Info: Applying patch `eqnum' on input line 213.
+Package microtype Info: Applying patch `footnote' on input line 213.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -1230,7 +1230,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 212.
+LaTeX Info: Redefining \showhyphens on input line 213.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1240,7 +1240,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 212.
+(lastpage)             ! on input line 213.
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1344,24 +1344,24 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 212.
-Package biblatex Info: Reference segment=0 on input line 212.
+Package biblatex Info: Reference section=0 on input line 213.
+Package biblatex Info: Reference segment=0 on input line 213.
 <setup/vertical_sigla_fundo_claro.pdf, id=4, 327.2225pt x 449.68pt>
 File: setup/vertical_sigla_fundo_claro.pdf Graphic file (type pdf)
 <use setup/vertical_sigla_fundo_claro.pdf>
 Package pdftex.def Info: setup/vertical_sigla_fundo_claro.pdf  used on input li
-ne 239.
+ne 240.
 (pdftex.def)             Requested size: 52.35297pt x 71.9434pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./setup/vertical_sigla_fun
 do_claro.pdf>]
-Underfull \hbox (badness 1205) in paragraph at lines 248--248
+Underfull \hbox (badness 1205) in paragraph at lines 249--249
 []\T1/lmr/m/n/10 (+10) Trabalho de Con-clu-são de Curso do Curso de
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 248--248
+Underfull \hbox (badness 2635) in paragraph at lines 249--249
 \T1/lmr/m/n/10 (+10) Tec-no-ló-gico da Uni-ver-si-dade Fe-de-ral de Santa
  []
 
@@ -1369,7 +1369,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.248 
+l.249 
        [1
 
 
@@ -1379,38 +1379,38 @@ l.248
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf  used on input line
- 254.
+ 255.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf  used on input line
- 254.
+ 255.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
 <beforetext/Ficha_Catalografica.pdf, id=24, page=1, 597.55246pt x 845.19763pt>
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf, page 1>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf , page1 used on inp
-ut line 254.
+ut line 255.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf, page 1>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf , page1 used on inp
-ut line 254.
+ut line 255.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf, page 1>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf , page1 used on inp
-ut line 254.
+ut line 255.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf, page 1>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf , page1 used on inp
-ut line 254.
+ut line 255.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: beforetext/Ficha_Catalografica.pdf Graphic file (type pdf)
 <use beforetext/Ficha_Catalografica.pdf, page 1>
 Package pdftex.def Info: beforetext/Ficha_Catalografica.pdf , page1 used on inp
-ut line 254.
+ut line 255.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 [2 <./beforetext/Ficha_Catalografica.pdf>] [3
 
@@ -1418,7 +1418,7 @@ ut line 254.
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
-12.
+13.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1427,13 +1427,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (13.63971pt too wide) in paragraph at lines 314--315
+Overfull \hbox (13.63971pt too wide) in paragraph at lines 315--316
 []\T1/lmr/m/n/12 (-10) Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxx.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
@@ -1483,56 +1483,59 @@ Using TeX to sort glossary entries---this may take a while
 
 
 
-] (./main.toc) [12
+] (./main.toc
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 33.
+) [12
 
 ] [13
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 450.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 451.
 [14] [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 496.
+(hyperref)                removing `\glsxtrshort' on input line 497.
 
 [16
 
 ]
-<images/airflow-components.png, id=304, 779.91376pt x 579.66562pt>
+<images/airflow-components.png, id=320, 779.91376pt x 579.66562pt>
 File: images/airflow-components.png Graphic file (type png)
 <use images/airflow-components.png>
-Package pdftex.def Info: images/airflow-components.png  used on input line 530.
+Package pdftex.def Info: images/airflow-components.png  used on input line 531.
 
 (pdftex.def)             Requested size: 428.9539pt x 318.81708pt.
 [17 <./images/airflow-components.png (PNG copy)>]
-<images/tutorial_dag-graph (2).png, id=318, 1228.59pt x 835.12pt>
+<images/tutorial_dag-graph (2).png, id=334, 1228.59pt x 835.12pt>
 File: images/tutorial_dag-graph (2).png Graphic file (type png)
 <use images/tutorial_dag-graph (2).png>
 Package pdftex.def Info: images/tutorial_dag-graph (2).png  used on input line 
-540.
+541.
 (pdftex.def)             Requested size: 455.0pt x 202.9115pt.
 [18 <./images/tutorial_dag-graph (2).png>] [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 577.
+(hyperref)                removing `\glsxtrshort' on input line 578.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 587.
+(hyperref)                removing `\glsxtrshort' on input line 588.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 587.
+(hyperref)                removing `\glsxtrshort' on input line 588.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 591.
+(Font)              <10> on input line 592.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 591.
+(Font)              <7> on input line 592.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 591.
+(Font)              <5> on input line 592.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-91.
+92.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1541,279 +1544,301 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--591
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
  [][] [][][]\T1/lmr/m/n/10 (+10) Disponível em: [][]$\T1/lmtt/m/n/10 https : / 
 / transparencia . e-[]publica . net / epublica-[]portal / # / florianopolis /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--591
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
  [][] [][][]\T1/lmr/m/n/10 (+10) Disponível em: [][]$\T1/lmtt/m/n/10 https : / 
 / transparencia . e-[]publica . net / epublica-[]portal / # / florianopolis /
  []
 
 [20]
-<images/json_licitacao_v2.png, id=384, 185.94469pt x 319.1925pt>
+<images/json_licitacao_v2.png, id=400, 185.94469pt x 319.1925pt>
 File: images/json_licitacao_v2.png Graphic file (type png)
 <use images/json_licitacao_v2.png>
-Package pdftex.def Info: images/json_licitacao_v2.png  used on input line 610.
+Package pdftex.def Info: images/json_licitacao_v2.png  used on input line 611.
 (pdftex.def)             Requested size: 163.80028pt x 281.18736pt.
 [21 <./images/json_licitacao_v2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 630--631
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 []|\T1/lmr/m/n/12 (+10) Tipo de in-for-ma-ção re-tor-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 630--631
+Underfull \hbox (badness 2503) in paragraph at lines 631--632
 \T1/lmr/m/n/12 (+10) nada pela [][][]API[][] (\T1/lmtt/m/n/12 `Licitacao'\T1/lm
 r/m/n/12 (+10) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--631
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 \T1/lmtt/m/n/12 `Contrato'\T1/lmr/m/n/12 (+10) , \T1/lmtt/m/n/12 `Receita'\T1/l
 mr/m/n/12 (+10) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--631
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 \T1/lmtt/m/n/12 `Despesa Orçamentária'\T1/lmr/m/n/12 (+10) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 []|\T1/lmr/m/n/12 (+10) Data da úl-tima atu-a-li-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 \T1/lmr/m/n/12 (+10) ção dos da-dos no for-mato
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 626--638
+Overfull \hbox (21.79128pt too wide) in alignment at lines 627--639
  [] [] [] [] 
  []
 
 [22]
-Underfull \hbox (badness 1983) in paragraph at lines 658--659
+Underfull \hbox (badness 1983) in paragraph at lines 659--660
 []|\T1/lmr/m/n/12 (+10) Finalidade da li-ci-ta-ção (exem-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 670--670
+Underfull \hbox (badness 3291) in paragraph at lines 671--671
 []|\T1/lmr/m/n/12 (+10) listEmpenhos (op-ci-o-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--672
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
 []|\T1/lmr/m/n/12 (+10) listContratos (op-ci-o-
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 642--674
+Overfull \hbox (21.79128pt too wide) in alignment at lines 643--675
  [] [] [] [] 
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 677--685
+Overfull \hbox (21.79128pt too wide) in alignment at lines 678--686
  [] [] [] [] 
  []
 
 [23]
-Overfull \hbox (21.79128pt too wide) in alignment at lines 689--695
+Overfull \hbox (21.79128pt too wide) in alignment at lines 690--696
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 708--709
+Underfull \hbox (badness 4001) in paragraph at lines 709--710
 []|\T1/lmr/m/n/12 (+10) Unidade de me-dida do item
  []
 
 
-Overfull \hbox (1.43538pt too wide) in paragraph at lines 710--710
+Overfull \hbox (1.43538pt too wide) in paragraph at lines 711--711
 []|\T1/lmr/m/n/12 (-10) valorUnitarioEstimado| 
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 698--716
+Overfull \hbox (21.79128pt too wide) in alignment at lines 699--717
  [] [] [] [] 
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 719--731
+Overfull \hbox (21.79128pt too wide) in alignment at lines 720--732
  [] [] [] [] 
  []
 
 [24]
-Overfull \hbox (21.79128pt too wide) in alignment at lines 735--743
+Overfull \hbox (21.79128pt too wide) in alignment at lines 736--744
  [] [] [] [] 
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 746--766
+Overfull \hbox (21.79128pt too wide) in alignment at lines 747--767
  [] [] [] [] 
  []
 
-<images/json_contrato_v2.png, id=425, 181.42781pt x 272.51813pt>
+<images/json_contrato_v2.png, id=441, 181.42781pt x 272.51813pt>
 File: images/json_contrato_v2.png Graphic file (type png)
 <use images/json_contrato_v2.png>
-Package pdftex.def Info: images/json_contrato_v2.png  used on input line 770.
+Package pdftex.def Info: images/json_contrato_v2.png  used on input line 771.
 (pdftex.def)             Requested size: 181.99722pt x 273.37822pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25]
-Underfull \hbox (badness 3291) in paragraph at lines 801--801
+Underfull \hbox (badness 3291) in paragraph at lines 802--802
 []|\T1/lmr/m/n/12 (+10) listEmpenhos (op-ci-o-
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 779--803
+Overfull \hbox (21.79128pt too wide) in alignment at lines 780--804
  [] [] [] [] 
  []
 
 [26 <./images/json_contrato_v2.png (PNG copy)>]
-Underfull \hbox (badness 4001) in paragraph at lines 817--818
+Underfull \hbox (badness 4001) in paragraph at lines 818--819
 []|\T1/lmr/m/n/12 (+10) Unidade de me-dida do item
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 807--823
+Overfull \hbox (21.79128pt too wide) in alignment at lines 808--824
  [] [] [] [] 
  []
 
 
-Overfull \hbox (21.79128pt too wide) in alignment at lines 826--832
+Overfull \hbox (21.79128pt too wide) in alignment at lines 827--833
  [] [] [] [] 
  []
 
 [27] [28
 
 ]
-Underfull \hbox (badness 1132) in paragraph at lines 866--866
+Underfull \hbox (badness 1132) in paragraph at lines 867--867
 []|\T1/lmr/m/n/12 (+10) Licitações do Es-tado de
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 867--867
+Underfull \hbox (badness 1565) in paragraph at lines 868--868
 []|\T1/lmr/m/n/12 (+10) Modelagem con-cei-tual com
  []
 
 [29]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 899.
+(hyperref)                removing `\glsxtrshort' on input line 900.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 899.
+(hyperref)                removing `\glsxtrshort' on input line 900.
 
 [30
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 911.
+(hyperref)                removing `\glsxtrshort' on input line 912.
 
 [31]
-<images/modelo_logico_tcc_v6.png, id=574, 1557.82pt x 930.47626pt>
+<images/modelo_logico_tcc_v6.png, id=590, 1557.82pt x 930.47626pt>
 File: images/modelo_logico_tcc_v6.png Graphic file (type png)
 <use images/modelo_logico_tcc_v6.png>
 Package pdftex.def Info: images/modelo_logico_tcc_v6.png  used on input line 93
-7.
+8.
 (pdftex.def)             Requested size: 500.50278pt x 442.96046pt.
 
-Overfull \hbox (45.50278pt too wide) in paragraph at lines 937--938
+Overfull \hbox (45.50278pt too wide) in paragraph at lines 938--939
  [] 
  []
 
 [32 <./images/modelo_logico_tcc_v6.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glsxtrshort' on input line 948.
+(hyperref)                removing `\glsxtrshort' on input line 949.
 
-[33]
+LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 955.
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 955.
+
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
-70.
+60.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [34
+) [33]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glsxtrshort' on input line 987.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 994--995
+[]\T1/lmr/m/n/12 (+10) Consolidação e carga dos da-dos trans-for-ma-dos em suas
+ res-pec-ti-vas ta-be-las
+ []
+
+[34]
+<images/dag-pmf.png, id=629, 867.24pt x 411.5375pt>
+File: images/dag-pmf.png Graphic file (type png)
+<use images/dag-pmf.png>
+Package pdftex.def Info: images/dag-pmf.png  used on input line 1002.
+(pdftex.def)             Requested size: 455.0pt x 215.91599pt.
+[35 <./images/dag-pmf.png>] [36
 
 ]
-<images/boxplot_licitacoes_2024.png, id=597, 1003.75pt x 602.25pt>
+<images/boxplot_licitacoes_2024.png, id=648, 1003.75pt x 602.25pt>
 File: images/boxplot_licitacoes_2024.png Graphic file (type png)
 <use images/boxplot_licitacoes_2024.png>
 Package pdftex.def Info: images/boxplot_licitacoes_2024.png  used on input line
- 1023.
+ 1081.
 (pdftex.def)             Requested size: 501.87378pt x 301.12425pt.
 
-Overfull \hbox (46.87378pt too wide) in paragraph at lines 1023--1024
+Overfull \hbox (46.87378pt too wide) in paragraph at lines 1081--1082
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35]
-<images/quantidade_anual.png, id=605, 1204.5pt x 602.25pt>
+[37]
+<images/quantidade_anual.png, id=655, 1204.5pt x 602.25pt>
 File: images/quantidade_anual.png Graphic file (type png)
 <use images/quantidade_anual.png>
-Package pdftex.def Info: images/quantidade_anual.png  used on input line 1040.
+Package pdftex.def Info: images/quantidade_anual.png  used on input line 1098.
 (pdftex.def)             Requested size: 493.8482pt x 223.59268pt.
 
-Overfull \hbox (38.8482pt too wide) in paragraph at lines 1040--1041
+Overfull \hbox (38.8482pt too wide) in paragraph at lines 1098--1099
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36 <./images/boxplot_licitacoes_2024.png>]
-<images/variacao_anual_valores.png, id=614, 1204.5pt x 602.25pt>
+[38 <./images/boxplot_licitacoes_2024.png>]
+<images/variacao_anual_valores.png, id=663, 1204.5pt x 602.25pt>
 File: images/variacao_anual_valores.png Graphic file (type png)
 <use images/variacao_anual_valores.png>
 Package pdftex.def Info: images/variacao_anual_valores.png  used on input line 
-1060.
+1118.
 (pdftex.def)             Requested size: 493.8482pt x 223.59268pt.
 
-Overfull \hbox (38.8482pt too wide) in paragraph at lines 1060--1061
+Overfull \hbox (38.8482pt too wide) in paragraph at lines 1118--1119
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37 <./images/quantidade_anual.png>]
-<images/principais_fornecedores.png, id=623, 1204.5pt x 602.25pt>
+[39 <./images/quantidade_anual.png>]
+<images/principais_fornecedores.png, id=672, 1204.5pt x 602.25pt>
 File: images/principais_fornecedores.png Graphic file (type png)
 <use images/principais_fornecedores.png>
 Package pdftex.def Info: images/principais_fornecedores.png  used on input line
- 1080.
+ 1138.
 (pdftex.def)             Requested size: 493.8482pt x 246.92409pt.
 
-Overfull \hbox (38.8482pt too wide) in paragraph at lines 1080--1081
+Overfull \hbox (38.8482pt too wide) in paragraph at lines 1138--1139
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38 <./images/variacao_anual_valores.png>] [39 <./images/principais_fornecedore
+[40 <./images/variacao_anual_valores.png>] [41 <./images/principais_fornecedore
 s.png>]
-<images/contratos_numeros_repetidos.png, id=645, 263.48438pt x 216.81pt>
+<images/contratos_numeros_repetidos.png, id=693, 263.48438pt x 216.81pt>
 File: images/contratos_numeros_repetidos.png Graphic file (type png)
 <use images/contratos_numeros_repetidos.png>
 Package pdftex.def Info: images/contratos_numeros_repetidos.png  used on input 
-line 1105.
+line 1163.
 (pdftex.def)             Requested size: 263.48372pt x 216.80946pt.
-[40 <./images/contratos_numeros_repetidos.png (PNG copy)>] [41] [42
+[42 <./images/contratos_numeros_repetidos.png (PNG copy)>] [43] [44
 
-] [43
+] [45
 
 ] 
 AED: lastpage setting LastPage
-[44]
+[46]
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1829,11 +1854,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35384 strings out of 478287
- 643159 string characters out of 5849290
- 1597389 words of memory out of 5000000
- 52748 multiletter control sequences out of 15000+600000
- 531112 words of font info for 128 fonts, out of 8000000 for 9000
+ 35460 strings out of 478287
+ 644230 string characters out of 5849290
+ 1597296 words of memory out of 5000000
+ 52803 multiletter control sequences out of 15000+600000
+ 537083 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,17n,118p,1730b,4441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
@@ -1842,13 +1867,13 @@ e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmtt12.pfb>
-Output written on main.pdf (45 pages, 874948 bytes).
+pe1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (47 pages, 938336 bytes).
 PDF statistics:
- 878 PDF objects out of 1000 (max. 8388607)
- 769 compressed objects within 8 object streams
- 173 named destinations out of 1000 (max. 500000)
- 38260 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 949 PDF objects out of 1000 (max. 8388607)
+ 831 compressed objects within 9 object streams
+ 186 named destinations out of 1000 (max. 500000)
+ 42407 words of extra memory for PDF output out of 42996 (max. 10000000)
 

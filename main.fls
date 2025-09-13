@@ -1507,6 +1507,7 @@ INPUT main.lot
 INPUT ./main.toc
 INPUT main.toc
 INPUT main.toc
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT ./images/airflow-components.png
 INPUT ./images/airflow-components.png
@@ -1550,10 +1551,17 @@ INPUT ./images/modelo_logico_tcc_v6.png
 INPUT images/modelo_logico_tcc_v6.png
 INPUT ./images/modelo_logico_tcc_v6.png
 INPUT ./images/modelo_logico_tcc_v6.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT ./images/dag-pmf.png
+INPUT ./images/dag-pmf.png
+INPUT images/dag-pmf.png
+INPUT ./images/dag-pmf.png
+INPUT ./images/dag-pmf.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmbx12.tfm
 INPUT ./images/boxplot_licitacoes_2024.png
 INPUT ./images/boxplot_licitacoes_2024.png
@@ -1570,7 +1578,6 @@ INPUT ./images/variacao_anual_valores.png
 INPUT images/variacao_anual_valores.png
 INPUT ./images/variacao_anual_valores.png
 INPUT ./images/variacao_anual_valores.png
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT ./images/principais_fornecedores.png
 INPUT ./images/principais_fornecedores.png
 INPUT images/principais_fornecedores.png
@@ -1597,6 +1604,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb

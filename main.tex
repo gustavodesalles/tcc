@@ -190,6 +190,7 @@
 \siglalista{PDF}{\textit{Portable Document Format}}
 \siglalista{PMF}{Prefeitura Municipal de Florianópolis}
 \siglalista{REST}{\textit{Representational State Transfer}}
+\siglalista{SQL}{\textit{Structured Query Language}}
 \siglalista{URL}{\textit{Uniform Resource Locator}}
 \siglalista{XML}{\textit{Extensible Markup Language}}
 
@@ -948,7 +949,64 @@ Além das tabelas definidas no dicionário de dados, foi criada uma tabela para 
 \section{Processo de \glsxtrshort{ETL}}
 % ----------------------------------------------------------
 
-Esta seção apresenta o planejamento e implementação do processo de extração, transformação e carga dos dados obtidos nas seções anteriores. As etapas do processo de \glsxtrshort{ETL} serão determinadas após a conclusão da modelagem do esquema relacional dos dados.
+Esta seção apresenta o planejamento e implementação do processo de extração, transformação e carga dos dados obtidos nas seções anteriores. O Apache Airflow foi utilizado como ferramenta de orquestração da \glsxtrshort{DAG} para definir a sequência da execução de tarefas, garantindo reprodutibilidade, escalabilidade e tolerância a falhas no fluxo de dados.
+O processo consiste em três etapas:
+
+\subsection{Extração (\textit{extract})}
+
+A fase de extração foi implementada por meio de duas funções principais, definidas como tarefas do Airflow com o decorador \texttt{@task}:
+
+\begin{itemize}
+	\item \textbf{get\_dados\_api()}: acessa a \glsxtrshort{API} pública do portal de transparência, recuperando registros em formato \glsxtrshort{JSON} referentes a licitações e contratos. Essa \glsxtrshort{API} retorna informações resumidas, como número do processo, modalidade, valores e datas principais.
+	\item \textbf{get\_dados\_internos()}: complementa os dados obtidos na \glsxtrshort{API} através de requisições \glsxtrshort{HTTP} do tipo POST. Nessa etapa, são carregados registros mais detalhados, incluindo unidades gestoras responsáveis, fornecedores, itens licitados, vencedores, empenhos e documentos textuais associados. Para realizar essa extração, a função utiliza \textit{payloads} em formato \glsxtrshort{JSON} armazenados localmente.
+\end{itemize}
+
+A estratégia de extrair dados de duas origens distintas foi adotada para mitigar limitações de cada fonte e assegurar maior completude e consistência nas informações obtidas.
+
+\subsection{Transformação (\textit{transform})}
+
+Uma vez coletados, os dados passam por tratamento e normalização, de forma a atender ao modelo de dados definido no banco PostgreSQL. Esse processo é realizado nas funções:
+
+\begin{itemize}
+	\item \textbf{juntar\_dados\_licitacao()}: integra as informações provenientes da \glsxtrshort{API} e das consultas internas para cada licitação, consolidando-as em um registro único. Além disso, executa cálculos derivados, como o valor total de itens licitados, e relaciona as licitações com entidades auxiliares (advogados, fornecedores, unidades gestoras, vencedores, itens e textos/documentos).
+	\item \textbf{juntar\_dados\_contrato()}: realiza procedimento análogo para os contratos administrativos. Nessa etapa, são inseridos dados de fornecedores, itens contratados, valores totais, documentos e empenhos vinculados, garantindo também o relacionamento entre contratos e licitações correspondentes.
+\end{itemize}
+
+Um aspecto relevante na etapa de transformação é a utilização de operações idempotentes, por meio da cláusula \texttt{ON CONFLICT} do PostgreSQL. Esse recurso assegura que, em caso de repetição de dados, os registros sejam atualizados em vez de duplicados, preservando a integridade e consistência do banco de dados.
+
+\subsection{Carga (\textit{load})}
+Na etapa final, os dados tratados são inseridos no banco PostgreSQL em um esquema relacional construído previamente. A \glsxtrshort{DAG} contempla tarefas específicas para garantir a infraestrutura necessária:
+
+\begin{itemize}
+	\item \textbf{criar\_tabelas}: executa o \textit{script} \glsxtrshort{SQL} responsável por criar todas as tabelas do esquema relacional, caso ainda não existam.
+	\item \textbf{inserir\_unidades\_gestoras}: realiza a inserção inicial das unidades gestoras de referência, fundamentais para relacionar as informações dos processos.
+\end{itemize}
+
+Após essa inicialização, as tarefas de carga inserem dados nas tabelas principais \textit{Licitacao, Contrato, Item, Fornecedor, Advogado, Unidade Gestora, Vencedor, Texto e Empenho}. Cada tabela foi projetada para representar entidades-chave no contexto das compras públicas, permitindo consultas analíticas posteriores.
+
+\subsection{Orquestração da \glsxtrshort{DAG}}
+A \glsxtrshort{DAG} definida (\texttt{dag\_compras\_publicas\_v2}) possui agendamento diário (\texttt{@daily}), de forma que novos dados sejam coletados automaticamente. A execução segue a seguinte ordem lógica:
+
+\begin{enumerate}
+	\item Criação das tabelas (\texttt{criar\_tabelas});
+	\item Inserção das unidades gestoras (\texttt{inserir\_unidades\_gestoras});
+	\item Extração de dados da \glsxtrshort{API} e das consultas internas, tanto para licitações quanto para contratos;
+	\item Consolidação e carga dos dados transformados em suas respectivas tabelas (\texttt{juntar\_dados\_licitacao} e \texttt{juntar\_dados\_contrato}).
+\end{enumerate}
+
+A \autoref{fig:dag_pmf} mostra o encadeamento das tarefas da \glsxtrshort{DAG} visualizado no modo \textit{graph view} do Airflow.
+
+\begin{figure}[h]
+	\begin{center}
+		\caption{\label{fig:dag_pmf}Visualização das tarefas e dependências da \glsxtrshort{DAG}.}
+		\includegraphics[clip,width=\textwidth]{images/dag-pmf.png} %scale=0.32
+		\fonte{Elaborada pelo autor.}
+	\end{center}
+\end{figure}
+
+\subsection{Considerações}
+
+O processo de ETL construído garante a disponibilização contínua de dados de licitações e contratos em uma base relacional robusta, apta para consultas exploratórias, geração de indicadores e análises futuras. O uso do Apache Airflow trouxe vantagens como controle de dependências, tolerância a falhas (com tentativas de reexecução em caso de erros) e rastreabilidade da execução por meio de sua interface web.
 
 % ----------------------------------------------------------
 \chapter{Resultados}

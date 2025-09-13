@@ -1,16 +1,16 @@
 # Fdb version 3
-["biber main"] 1754420285 "main.bcf" "main.bbl" "main" 1757722572
+["biber main"] 1754420285 "main.bcf" "main.bbl" "main" 1757807018
   "aftertext/references.bib" 1751415832 7757 c6f9c27014f093a85d8a50becec9edc9 ""
-  "main.bcf" 1757722572 114883 0080d7c40b50b741680c815e2ba08eb2 "pdflatex"
+  "main.bcf" 1757807018 114883 0080d7c40b50b741680c815e2ba08eb2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 1753141181 "main.idx" "main.ind" "main" 1757722572
-  "main.idx" 1757722571 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1753141181 "main.idx" "main.ind" "main" 1757807018
+  "main.idx" 1757807016 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1757722570 "main.tex" "main.pdf" "main" 1757722572
+["pdflatex"] 1757807016 "main.tex" "main.pdf" "main" 1757807018
   "/etc/texmf/web2c/texmf.cnf" 1751475079 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -166,6 +166,7 @@
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm" 1254938640 17148 9556e1b5f936b77a796f68d2d559ba99 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm" 1254938640 17144 271aaf9ebb339934b04110dc5211fba4 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmss12.tfm" 1254938640 11232 955a7245396175d9219648eadc654ac9 ""
+  "/usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm" 1254938640 11304 1bf3f99c327bf3c434fc66d6737a89a2 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm" 1254938640 11168 06d87f5698fd1b642d96449b7c8d90b0 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm" 1254938640 1372 2ef2c2b492b3c4cd7879fe083abbb061 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmtt12.tfm" 1254938640 1368 6a60e6a5e029141041d64d339b87e533 ""
@@ -197,6 +198,7 @@
   "/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb" 1254938640 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri12.pfb" 1254938640 109265 32320cb6133d4d76bf83e27b5eb4009b ""
   "/usr/share/texmf/fonts/type1/public/lm/lmss12.pfb" 1254938640 96107 daf52840b555e3b38f9679b629b5e2df ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb" 1254938640 137678 2aaabe8e92a4a04077c932d1efd80d4b ""
   "/usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb" 1254938640 119663 e82fa1a58f98ccd89bdbd77311ac9cf1 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb" 1254938640 113227 1010e11451afc2822c95dae77c390042 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb" 1254938640 110323 92daea7ca7b4120bd2b54b047c93be27 ""
@@ -216,6 +218,7 @@
   "images/airflow-components.png" 1751415832 82928 c477be377ee41f9b80b89578fa63fcf6 ""
   "images/boxplot_licitacoes_2024.png" 1752011009 38340 fa83c3b5dccf0e0b2bb6166fd9f9ae77 ""
   "images/contratos_numeros_repetidos.png" 1756671248 15171 795a677ba87ee19833b62b9716d42dbb ""
+  "images/dag-pmf.png" 1757798584 41708 7cc7c309b22fdbd4a5baf4e305dd4509 ""
   "images/json_contrato_v2.png" 1751415832 26311 f765731d0fa7fb5501a69b67471769c5 ""
   "images/json_licitacao_v2.png" 1751415832 28973 dc8815d7e1f75bdbb03185824ee1cf33 ""
   "images/modelo_logico_tcc_v6.png" 1757722566 112235 d1b66e221967c3693e1afd442d0ab346 ""
@@ -223,14 +226,14 @@
   "images/quantidade_anual.png" 1754875865 59716 1a9cb1cc0a5c496578693a6749a5ad12 ""
   "images/tutorial_dag-graph (2).png" 1753403221 44317 f4d1a57c1d9b6704e26a26a574128bed ""
   "images/variacao_anual_valores.png" 1754875796 65908 5eeae651d519e1b95eb43f8f2925bf35 ""
-  "main.aux" 1757722572 37537 8f0e6c63c5dc9b028c4439388c2ede6b "pdflatex"
+  "main.aux" 1757807018 41311 ac7c3aa5ce78e478e7369e0e6c122f56 "pdflatex"
   "main.bbl" 1754420285 24131 0f38207a4b76c168d7f354545ef91863 "biber main"
   "main.ind" 1753141181 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1757722572 1428 beb798aa5571c79ebbe2f5ad0256c1c2 "pdflatex"
-  "main.lot" 1757722572 424 9ce70cb62186e8b64e9d1da0a0a32994 "pdflatex"
-  "main.run.xml" 1757722572 2520 678fcd486eb36ae963e16136b3fbd359 "pdflatex"
-  "main.tex" 1757624237 79380 96c668af49956111f5c92d49e2f993a9 ""
-  "main.toc" 1757722572 3477 3885ac70c61c69618362f469a9f1474e "pdflatex"
+  "main.lof" 1757807018 1568 cab2d58bce81ac5f9bcdce1f735151c4 "pdflatex"
+  "main.lot" 1757807018 424 2834316623fc8d6a51523e881a159656 "pdflatex"
+  "main.run.xml" 1757807018 2520 678fcd486eb36ae963e16136b3fbd359 "pdflatex"
+  "main.tex" 1757807015 84560 b23f1ee10002a6cf7f65316455d3c3ae ""
+  "main.toc" 1757807018 3972 e6006df2a003c91a47fa381d0353e02b "pdflatex"
   "setup/ufscthesisA4-alf.sty" 1751415832 11236 9189aa604fb41884c473dd6ad65144f1 ""
   "setup/vertical_sigla_fundo_claro.pdf" 1751415832 51586 17e6b34529482ef5c908bfc04c901503 ""
   (generated)
