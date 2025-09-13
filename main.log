@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  6 SEP 2025 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.2)  12 SEP 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1717,18 +1717,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glsxtrshort' on input line 911.
 
 [31]
-<images/modelo_logico_tcc_v5.png, id=574, 1557.82pt x 942.52126pt>
-File: images/modelo_logico_tcc_v5.png Graphic file (type png)
-<use images/modelo_logico_tcc_v5.png>
-Package pdftex.def Info: images/modelo_logico_tcc_v5.png  used on input line 93
+<images/modelo_logico_tcc_v6.png, id=574, 1557.82pt x 930.47626pt>
+File: images/modelo_logico_tcc_v6.png Graphic file (type png)
+<use images/modelo_logico_tcc_v6.png>
+Package pdftex.def Info: images/modelo_logico_tcc_v6.png  used on input line 93
 7.
-(pdftex.def)             Requested size: 500.50278pt x 448.6946pt.
+(pdftex.def)             Requested size: 500.50278pt x 442.96046pt.
 
 Overfull \hbox (45.50278pt too wide) in paragraph at lines 937--938
  [] 
  []
 
-[32 <./images/modelo_logico_tcc_v5.png>]
+[32 <./images/modelo_logico_tcc_v6.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glsxtrshort' on input line 948.
@@ -1845,7 +1845,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmtt12.pfb>
-Output written on main.pdf (45 pages, 874487 bytes).
+Output written on main.pdf (45 pages, 874948 bytes).
 PDF statistics:
  878 PDF objects out of 1000 (max. 8388607)
  769 compressed objects within 8 object streams

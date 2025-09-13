@@ -1545,11 +1545,11 @@ INPUT ./images/json_contrato_v2.png
 INPUT images/json_contrato_v2.png
 INPUT ./images/json_contrato_v2.png
 INPUT ./images/json_contrato_v2.png
-INPUT ./images/modelo_logico_tcc_v5.png
-INPUT ./images/modelo_logico_tcc_v5.png
-INPUT images/modelo_logico_tcc_v5.png
-INPUT ./images/modelo_logico_tcc_v5.png
-INPUT ./images/modelo_logico_tcc_v5.png
+INPUT ./images/modelo_logico_tcc_v6.png
+INPUT ./images/modelo_logico_tcc_v6.png
+INPUT images/modelo_logico_tcc_v6.png
+INPUT ./images/modelo_logico_tcc_v6.png
+INPUT ./images/modelo_logico_tcc_v6.png
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
