@@ -1176,7 +1176,17 @@ Outro achado importante foi a existência de contratos que compartilham o mesmo 
 \label{cap:Conclusoes}
 % ----------------------------------------------------------
 
-As \glsxtrshort{API}s da \glsxtrlong{PMF} oferecem dados incompletos entre si, sendo necessário realizar requisições em diversos \textit{endpoints} para obter informações completas. Para trabalhos futuros, é sugerido o desenvolvimento de uma única \glsxtrshort{API} que reúna todos os conteúdos em um arquivo.
+Este trabalho apresentou o desenvolvimento de um processo de ETL (\textit{Extract, Transform and Load}) utilizando o Apache Airflow para orquestração de \textit{workflows}, aplicado à coleta e integração de dados de licitações e contratos da \glsxtrlong{PMF}.
+
+A solução implementada permitiu automatizar as etapas de extração, transformação e carga, consolidando dados provenientes de fontes distintas em um banco de dados relacional PostgreSQL. A \glsxtrshort{DAG} desenvolvida realizou com sucesso a integração entre dados públicos via \glsxtrshort{API} e registros internos obtidos por requisições específicas, a normalização e tratamento dos dados para garantir a consistência, e a criação de uma base relacional estruturada capaz de suportar consultas analíticas.
+
+Como continuidade deste trabalho, sugerem-se as seguintes linhas de evolução:  
+(i) ampliar o pipeline para suportar maiores volumes de dados e múltiplas fontes governamentais;
+(ii) integrar o banco de dados com ferramentas de \textit{business intelligence} para geração de \textit{dashboards} e relatórios;
+(iii) explorar o uso de algoritmos de aprendizado de máquina para detecção de anomalias em licitações e contratos;
+(iv) aprofundar a coleta e integração de informações relacionadas a empenhos, permitindo maior detalhamento na análise do ciclo completo das despesas públicas;
+e (v) implementar mecanismos para revisar e atualizar registros antigos quando houver alterações ou complementações publicadas em períodos posteriores.
+
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS

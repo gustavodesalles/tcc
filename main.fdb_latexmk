@@ -1,16 +1,16 @@
 # Fdb version 3
-["biber main"] 1754420285 "main.bcf" "main.bbl" "main" 1757807018
+["biber main"] 1754420285 "main.bcf" "main.bbl" "main" 1757875630
   "aftertext/references.bib" 1751415832 7757 c6f9c27014f093a85d8a50becec9edc9 ""
-  "main.bcf" 1757807018 114883 0080d7c40b50b741680c815e2ba08eb2 "pdflatex"
+  "main.bcf" 1757875630 114883 0080d7c40b50b741680c815e2ba08eb2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 1753141181 "main.idx" "main.ind" "main" 1757807018
-  "main.idx" 1757807016 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1753141181 "main.idx" "main.ind" "main" 1757875630
+  "main.idx" 1757875628 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
-["pdflatex"] 1757807016 "main.tex" "main.pdf" "main" 1757807018
+["pdflatex"] 1757875628 "main.tex" "main.pdf" "main" 1757875630
   "/etc/texmf/web2c/texmf.cnf" 1751475079 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -226,14 +226,14 @@
   "images/quantidade_anual.png" 1754875865 59716 1a9cb1cc0a5c496578693a6749a5ad12 ""
   "images/tutorial_dag-graph (2).png" 1753403221 44317 f4d1a57c1d9b6704e26a26a574128bed ""
   "images/variacao_anual_valores.png" 1754875796 65908 5eeae651d519e1b95eb43f8f2925bf35 ""
-  "main.aux" 1757807018 41311 ac7c3aa5ce78e478e7369e0e6c122f56 "pdflatex"
+  "main.aux" 1757875630 41311 1d02c0ccff20ece82c666bbf991aecf7 "pdflatex"
   "main.bbl" 1754420285 24131 0f38207a4b76c168d7f354545ef91863 "biber main"
   "main.ind" 1753141181 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1757807018 1568 cab2d58bce81ac5f9bcdce1f735151c4 "pdflatex"
-  "main.lot" 1757807018 424 2834316623fc8d6a51523e881a159656 "pdflatex"
-  "main.run.xml" 1757807018 2520 678fcd486eb36ae963e16136b3fbd359 "pdflatex"
-  "main.tex" 1757807015 84560 b23f1ee10002a6cf7f65316455d3c3ae ""
-  "main.toc" 1757807018 3972 e6006df2a003c91a47fa381d0353e02b "pdflatex"
+  "main.lof" 1757875630 1568 cab2d58bce81ac5f9bcdce1f735151c4 "pdflatex"
+  "main.lot" 1757875630 424 2834316623fc8d6a51523e881a159656 "pdflatex"
+  "main.run.xml" 1757875630 2520 678fcd486eb36ae963e16136b3fbd359 "pdflatex"
+  "main.tex" 1757875625 85795 6d20fba760f07e2e6d8b469d319eae8c ""
+  "main.toc" 1757875630 3972 e6006df2a003c91a47fa381d0353e02b "pdflatex"
   "setup/ufscthesisA4-alf.sty" 1751415832 11236 9189aa604fb41884c473dd6ad65144f1 ""
   "setup/vertical_sigla_fundo_claro.pdf" 1751415832 51586 17e6b34529482ef5c908bfc04c901503 ""
   (generated)
